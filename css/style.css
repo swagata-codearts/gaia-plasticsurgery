@@ -11,8 +11,8 @@
   /* CSS HEX */
   --c-primary: #2c2647;
   --c-secondary: #ff4f00;
-  --c-tertiary: #858585;
-  
+  --c-tertiary: #858585; 
+
   --c-white-900: #ffffffff;
   --c-black-700: #161616;
   --c-black-800: #2d2d2d;
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 /* *************** Header Section End *************** */
 
 /* *************** <add section name> Section Start *************** */
-/*Banner-start*/
+/*Banner*/
 .custom-banner .banner-wrap {
   background-size: cover;
   background-position: center;
@@ -227,7 +227,66 @@ h1, h2, h3, h4, h5, h6 {
   padding: 345px 0;
   position: relative;
 }
-/*Banner-end*/
+/*About*/
+.about.custom-pad {
+  padding-bottom: 290px;
+  position: relative;
+}
+.about.custom-pad .about-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 725px;
+}
+.about.custom-pad .about-img {
+  position: relative;
+}
+.about-bg-1 img {
+  width: 70% !important;
+  height: 460px !important;
+}
+.about-bg-1 img {
+  position: absolute;
+  top: 60%;
+  left: -30%;
+  z-index: -1;
+}
+.about-bg-2 img {
+  width: 10% !important;
+  height:70px !important;
+}
+.about-bg-2 img {
+  position: absolute;
+  bottom: 4%;
+  right: -17%;
+  z-index: -1;
+}
+.about-content {
+  padding: 0 0px 0 80px;
+}
+/*Procedures*/
+.procedures.custom-pad {
+  background-color: #2c2647;
+}
+.surgery-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.procedure-pattern-1 img {
+  width: 30% !important;
+  object-fit: cover;
+}
+.procedure-pattern-2 img {
+  width: 30% !important;
+  object-fit: cover;
+}
+.counter-part .counter-count li {
+  display: inline-block;
+}
+.counter-part .counter-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* *************** <add section name> Section End *************** */
 
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
