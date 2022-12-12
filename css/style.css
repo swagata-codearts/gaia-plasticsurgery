@@ -287,6 +287,35 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
 }
+/*Gallery*/
+.gallery.custom-pad {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.gallery.custom-pad .gallery-custom-img img {
+  width: 100%;
+  object-fit: cover;
+}
+/*Testimonial*/
+.testimonial.custom-pad {
+  background-color: #f6fafd;
+}
+.testimonial.custom-pad .quote-img img {
+  width: 10% !important;
+  object-fit: cover;
+}
+.testimonial.custom-pad .client-img img {
+  width: 10% !important;
+  object-fit: cover;
+}
+.our-company.custom-pad {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
 /* *************** <add section name> Section End *************** */
 
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
