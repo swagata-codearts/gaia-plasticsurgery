@@ -1,8 +1,9 @@
 // JavaScript Document
-jQuery('#custom-owl').owlCarousel({
+jQuery('#banner-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
+    dots:true,
     responsive:{
         0:{
             items:2
@@ -11,7 +12,7 @@ jQuery('#custom-owl').owlCarousel({
             items:3
         },
         1000:{
-            items:3
+            items:1
         }
     }
 });

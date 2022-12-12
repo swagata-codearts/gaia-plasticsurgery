@@ -94,52 +94,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
 }
-.custom-header::before {
-  position: absolute;
-  content: '';
-  width: 0;
-  height: 0;
-  border-top: 61px solid transparent;
-  border-left: 80px solid var(--c-black-900);
-  border-bottom: 131px solid transparent;
-  left: 370px;
-}
-.custom-header::after {
-  position: absolute;
-  content: '';
-  background-color: var(--c-black-900);
-  width: 370px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.header-logo {
-  position: relative;
-  z-index: 2;
-  left: -60px;
-  bottom: 40px;
-}
-.custom-header .navbar-expand-lg .navbar-nav {
-  align-items: center;
-}
-.custom-header .nav-item {
-  padding: 0 0 0 20px;
-}
-.custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li {
-  padding: 0 0 0 15px;
-}
-.custom-header .header-top_icon {
-  padding-right: 10px;
-}
-.custom-header .header-icon li {
-  display: inline-block;
-  padding: 0 0px 0 20px;
-}
-.custom-header .header-top {
-  padding: 20px 0;
-  border-bottom: 1px solid gray;
-}
 .custom-button  {
   display: inline-flex;
   align-items: center;
@@ -214,10 +168,66 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-toggler .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-
+.custom-header::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 61px solid transparent;
+  border-left: 80px solid var(--c-black-900);
+  border-bottom: 132px solid transparent;
+  left: 370px;
+  top: auto;
+  bottom: 0;
+}
+.custom-header::after {
+  position: absolute;
+  content: '';
+  background-color: var(--c-black-900);
+  width: 370px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.header-logo {
+  position: relative;
+  z-index: 2;
+  left: -60px;
+  bottom: 40px;
+}
+.custom-header .navbar-expand-lg .navbar-nav {
+  align-items: center;
+}
+.custom-header .nav-item {
+  padding: 0 0 0 20px;
+}
+.custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li {
+  padding: 0 0 0 15px;
+}
+.custom-header .header-top_icon {
+  padding-right: 10px;
+}
+.custom-header .header-icon li {
+  display: inline-block;
+  padding: 0 0px 0 20px;
+}
+.custom-header .header-top {
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+}
 /* *************** Header Section End *************** */
 
 /* *************** <add section name> Section Start *************** */
+/*Banner-start*/
+.custom-banner .banner-wrap {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 345px 0;
+  position: relative;
+}
+/*Banner-end*/
 /* *************** <add section name> Section End *************** */
 
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
