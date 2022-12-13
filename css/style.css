@@ -12,6 +12,7 @@
   --c-primary: #2c2647;
   --c-secondary: #ff4f00;
   --c-tertiary: #858585; 
+  --c-purple-700: #d4d1e0;
 
   --c-white-900: #ffffffff;
   --c-black-700: #161616;
@@ -305,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
   font-weight: 500;
   color: var(--c-primary);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .custom-heading h2 {
   font-family: var(--ff-primary);
@@ -388,26 +389,96 @@ h1, h2, h3, h4, h5, h6 {
 /*Procedures*/
 .procedures.custom-pad {
   background-color: #2c2647;
+  position: relative;
 }
+
 .surgery-img img {
-  width: 100%;
+  width: 35%;
   object-fit: cover;
-}
-.procedure-pattern-1 img {
-  width: 30% !important;
-  object-fit: cover;
-}
-.procedure-pattern-2 img {
-  width: 30% !important;
-  object-fit: cover;
-}
-.counter-part .counter-count li {
-  display: inline-block;
+  height: 750px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  position: absolute;
+  top: -70px;
 }
 .counter-part .counter-text {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.procedures-content .custom-heading h5 {
+  color: var(--c-white-900);
+}
+.procedures-content .custom-heading h2 {
+  color: var(--c-white-900);
+}
+.procedures-content .custom-paragraph.procedures-para {
+  color: var(--c-purple-700);
+  padding: 0 10px 0 120px;
+  margin-top: 60px;
+  position: relative;
+}
+.procedures-content .custom-paragraph.procedures-para::after {
+  position: absolute;
+  content: '';
+  background-color: var(--c-secondary);
+  width: 100px;
+  height: 3px;
+  top: 20px;
+  left: 0;
+}
+.procedures-btn {
+  margin-top: 50px;
+}
+.counter-part .counter-text li {
+  font-family: var(--ff-primary);
+  font-size: 80px;
+  font-weight: 500;
+  color: var(--c-secondary);
+}
+.counter-part .counter-text li h3 {
+  font-family: var(--ff-primary);
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--c-white-900);
+}
+.counter-part .counter-text li .custom-paragraph {
+  color: var(--c-purple-700);
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 25px;
+  padding-right: 30px;
+}
+.counter-part {
+  margin-top: 85px;
+}
+.procedures-bottom-wrap img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.procedures-bottom {
+  margin-top: 100px;
+}
+.procedures-bottom-wrap {
+  position: relative;
+}
+.procedures-bottom-text {
+  position: absolute;
+  bottom: -35px;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.procedures-bottom-text h4 {
+  font-family: var(--ff-primary);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--c-black-800);
+  background-color: var(--c-white-900);
+  display: inline-block;
+  padding: 25px 55px;
+  border-radius: 10px;
 }
 /*Gallery*/
 .gallery.custom-pad {
@@ -432,22 +503,80 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 60px;
 }
 /*Testimonial*/
+.testimonial.custom-pad .custom-heading {
+  padding: 0px 150px;
+  text-align: center;
+}
 .testimonial.custom-pad {
   background-color: #f6fafd;
 }
 .testimonial.custom-pad .quote-img img {
-  width: 10% !important;
+  width: 6% !important;
   object-fit: cover;
+  margin-bottom: 60px;
 }
 .testimonial.custom-pad .client-img img {
-  width: 10% !important;
+  width: 7% !important;
   object-fit: cover;
+  height: 96px;
+  border-radius: 100px;
+}
+.testimonial.custom-pad .quote-img {
+  justify-content: center;
+  display: flex;
+}
+.testimonial.custom-pad .client-img {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+.testimonial-content h4 {
+  font-family: var(--ff-primary);
+  font-size: 20px;
+  color: var(--c-black-800);
+  font-weight: 500;
+  padding-top: 25px;
+}
+.testimonial-content .custom-paragraph {
+  padding: 0 200px;
+}
+.testimonial-content h6 {
+  font-family: var(--ff-primary);
+  font-size: 16px;
+  color: var(--c-black-800);
+  font-weight: 400;
+  padding-top: 10px;
+}
+.testimonial-content {
+  text-align: center;
+  margin-top: 85px;
 }
 .our-company.custom-pad {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
+}
+/*Our Company*/
+.our-company-heading .heading-1 {
+  font-family: var(--ff-primary);
+  font-size: 60px;
+  font-weight: 500;
+  color: var(--c-white-900);
+}
+.our-company-heading  .heading-1.extra {
+  margin-top: 18px;
+  padding-left: 50px;
+}
+.our-company-content .custom-paragraph {
+  color: var(--c-purple-700);
+}
+.our-company-content .our-company-btn {
+  margin-top: 35px;
+}
+.our-company-content .our-company-btn .custom-button:hover {
+  color: var(--c-white-900);
+  border-color: var(--c-white-900);
 }
 /* *************** <add section name> Section End *************** */
 
