@@ -483,6 +483,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 25px 55px;
   border-radius: 10px;
 }
+.procedures.custom-pad .custom-button:hover {
+  color: var(--c-white-900);
+  border-color: var(--c-white-900);
+}
 /*Gallery*/
 .gallery.custom-pad {
   background-size: cover;
