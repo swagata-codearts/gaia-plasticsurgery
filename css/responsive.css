@@ -1,28 +1,244 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-@media (min-width: 1500px) and (max-width: 1600px){
+@media (min-width: 1850px) and (max-width: 1920px){
 	
 }
-
-@media (min-width: 1400px) and (max-width: 1500px){
-	
+@media (min-width: 1700px) and (max-width: 1850px){
+	.about-bg-1 img {top: 70%;left: -20%;}
+    .about-bg-1 img {width: 62% !important;height: 410px !important;}
 }
 
-@media (min-width: 1300px) and (max-width: 1400px){
-	
+@media (min-width: 1600px) and (max-width: 1700px){
+	.custom-header::after {width: 280px;}
+    .custom-header::before {left: 280px;}
+    .custom-header .nav-item {padding: 0 0 0 35px;}
+    .custom-banner .banner-wrap {padding: 190px 0;}
+    .banner-content h1 {font-size: 65px;padding-right: 590px;}
+    .custom-heading h2 {font-size: 60px;}
+    .about-bg-1 img {top: 80%;left: -14%;}
+    .about-bg-1 img {width: 44% !important;height: 285px !important;}
+    .gallery-text {padding-left: 170px;}
+    .testimonial.custom-pad .custom-heading {padding: 0px 210px;}
+    .our-company-heading .heading-1 {font-size: 50px;}
+    .custom-footer.custom-pad .footer-wrap {padding: 0 50px 0 120px;}
+    .footer-box.padding .footer-list {padding-left: 40px;}
 }
-@media (min-width: 1200px) and (max-width: 1300px){
-	
+
+@media (min-width: 1366px) and (max-width: 1600px){
+    .custom-header::after {width: 230px;}
+    .custom-header::before {left: 230px;}
+    .custom-header .nav-item {padding: 0 0 0 20px;}
+    .custom-banner .banner-wrap {padding: 190px 0;}
+    .banner-content h1 {font-size: 60px;padding-right: 610px;}
+    .custom-heading h2 {font-size: 40px;}
+    .about-bg-1 img {top: 80%;left: 0%;}
+    .about-bg-1 img {width: 44% !important;height: 275px !important;}
+    .gallery-text {padding-left: 170px;}
+    .testimonial.custom-pad .custom-heading {padding: 0px 360px;}
+    .our-company-heading .heading-1 {font-size: 46px;}
+    .custom-footer.custom-pad .footer-wrap {padding: 0 10px 0 15px;}
+    .footer-box.padding .footer-list {padding-left: 40px;}
+    .header-logo {left: 50px;}
+    .custom-header .header-nav {padding: 0 30px 0 0;}
+    .custom-header .header-top_content.d-flex.justify-content-end {padding: 0 30px 0 0px;}
+    .custom-header .header-contact li a {font-size: 30px;}
+    .about.custom-pad .about-img {text-align: center;}
+    .about.custom-pad .about-img img {width: 80%;}
+    .about-bg-2 img {right: -5%;}
+    .custom-header .header-contact {padding-left: 15px;}
+    .about-content {padding: 0 0px 0 40px;}
+    .surgery-img img {width: 45%;height: 640px;}
+    .counter-part .counter-text li {font-size: 60px;}
+    .counter-part {margin-top: 35px;}
+    .procedures-bottom {margin-top: 70px;}
+    .procedures-content .custom-paragraph.procedures-para {margin-top: 40px;}
+    .testimonial-content {margin-top: 50px;}
+    .testimonial.custom-pad .quote-img img {margin-bottom: 30px;}
+    .testimonial.custom-pad .client-img {margin-top: 25px;}
+    .testimonial-content h4 {padding-top: 15px;}
+    .testimonial-content h6 {padding-top: 5px;}
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+    .custom-header::after {width: 180px;}
+    .custom-header::before {left: 180px;}
+    .custom-header .nav-item {padding: 0 0 0 10px;}
+    .custom-banner .banner-wrap {padding: 150px 0;}
+    .banner-content h1 {font-size: 55px;padding-right: 510px;}
+    .custom-heading h2 {font-size: 40px;}
+    .about-bg-1 img {top: 80%;left: 0%;}
+    .about-bg-1 img {width: 44% !important;height: 245px !important;}
+    .gallery-text {padding-left: 100px;}
+    .testimonial.custom-pad .custom-heading {padding: 0px 260px;}
+    .our-company-heading .heading-1 {font-size: 42px;}
+    .custom-footer.custom-pad .footer-wrap {padding: 0 15px 0 15px;}
+    .footer-box.padding .footer-list {padding-left: 40px;}
+    .header-logo {left: 20px;}
+    .custom-header .header-nav {padding: 0 15px 0 0;}
+    .custom-header .header-top_content.d-flex.justify-content-end {padding: 0 15px 0 0px;}
+    .custom-header .header-contact li a {font-size: 20px;}
+    .about.custom-pad .about-img {text-align: center;}
+    .about.custom-pad .about-img img {width: 90%;height: 600px;}
+    .about-bg-2 img {width: 9% !important;height: 50px !important;}
+    .about-bg-2 img {right: -9%;}
+    .custom-header .header-contact {padding-left: 10px;}
+    .about-content {padding: 0 0px 0 40px;}
+    .surgery-img img {width: 45%;height: 640px;}
+    .counter-part .counter-text li {font-size: 60px;}
+    .counter-part {margin-top: 20px;}
+    .procedures-bottom {margin-top: 50px;}
+    .procedures-content .custom-paragraph.procedures-para {margin-top: 40px;}
+    .testimonial-content {margin-top: 50px;}
+    .testimonial.custom-pad .quote-img img {margin-bottom: 20px;}
+    .testimonial.custom-pad .client-img {margin-top: 25px;}
+    .testimonial-content h4 {padding-top: 15px;}
+    .testimonial-content h6 {padding-top: 5px;}
+    .custom-header .header-contact li h5 {font-size: 13px;}
+    .custom-pad {padding: 100px 0;}
+    .about-content .custom-paragraph {margin-top: 20px;}
+    .about.custom-pad {padding-bottom: 200px;}
+    .counter-part .counter-text li .custom-paragraph {margin-top: 15px;}
+    .counter-part .counter-text li h3 {font-size: 26px;}
+    .procedures-bottom-text h4 {font-size: 16px;padding: 15px 45px;}
+    .procedures-bottom-text {bottom: -25px;}
+    .custom-paragraph {font-size: 17px;line-height: 35px;}
+    .custom-footer.custom-pad {padding: 100px 0 0;}
+    .footer-box .footer-list li {font-size: 15px;}
+    .copyright {margin-top: 100px;}
+    .copyright .custom-paragraph {font-size: 15px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+    .custom-header::after {width: 150px;}
+    .custom-header::before {left: 150px; border-top: 57px solid transparent;border-left: 40px solid var(--c-black-900);border-bottom: 81px solid transparent;}
+    .custom-header .nav-item {padding: 0 0 0 6px;}
+    .custom-banner .banner-wrap {padding: 150px 0;}
+    .banner-content h1 {font-size: 50px;padding-right: 390px;}
+    .custom-heading h2 {font-size: 40px;}
+    .about-bg-1 img {top: 85%;left: 0%;}
+    .about-bg-1 img {width: 44% !important;height: 205px !important;}
+    .gallery-text {padding-left: 600px;}
+    .testimonial.custom-pad .custom-heading {padding: 0px 220px;}
+    .our-company-heading .heading-1 {font-size: 38px;}
+    .custom-footer.custom-pad .footer-wrap {padding: 0 15px 0 15px;}
+    .footer-box.padding .footer-list {padding-left: 20px;}
+    .header-logo {left: 20px;}
+    .custom-header .header-nav {padding: 0 15px 0 0;}
+    .custom-header .header-top_content.d-flex.justify-content-end {padding: 0 15px 0 0px;}
+    .custom-header .header-contact li a {font-size: 20px;}
+    .about.custom-pad .about-img {text-align: center;}
+    .about.custom-pad .about-img img {width: 90%;height: 600px;}
+    .about-bg-2 img {width: 9% !important;height: 50px !important;}
+    .about-bg-2 img {right: -9%;}
+    .custom-header .header-contact {padding-left: 0px;}
+    .about-content {padding: 0 0px 0 40px;}
+    .surgery-img img {width: 45%;height: 640px;}
+    .counter-part .counter-text li {font-size: 50px;}
+    .counter-part {margin-top: 20px;}
+    .procedures-bottom {margin-top: 50px;}
+    .procedures-content .custom-paragraph.procedures-para {margin-top: 40px;}
+    .testimonial-content {margin-top: 50px;}
+    .testimonial.custom-pad .quote-img img {margin-bottom: 20px;}
+    .testimonial.custom-pad .client-img {margin-top: 25px;}
+    .testimonial-content h4 {padding-top: 15px;}
+    .testimonial-content h6 {padding-top: 5px;}
+    .custom-header .header-contact li h5 {font-size: 13px;}
+    .custom-pad {padding: 80px 0;}
+    .about-content .custom-paragraph {margin-top: 20px;}
+    .about.custom-pad {padding-bottom: 170px;}
+    .counter-part .counter-text li .custom-paragraph {margin-top: 15px;line-height: 26px;}
+    .counter-part .counter-text li h3 {font-size: 24px;}
+    .procedures-bottom-text h4 {font-size: 16px;padding: 15px 45px;}
+    .procedures-bottom-text {bottom: -25px;}
+    .custom-paragraph {font-size: 16px;line-height: 32px;}
+    .custom-footer.custom-pad {padding: 80px 0 0;}
+    .footer-box .footer-list li {font-size: 14px;}
+    .copyright {margin-top: 80px;}
+    .copyright .custom-paragraph {font-size: 14px;}
+    .header-logo .navbar-brand.ms-0.py-0 img {height: 80px; display: inline-block;}
+    .custom-header .header-top {padding: 0px 0;}
+    .custom-header .header-nav .nav-link {font-size: 15px;}
+    .custom-header .header-top .demo.d-none.d-sm-block {font-size: 12px;}
+    .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li::after {height: 52px;}
+    .custom-header .header-contact li a {padding-right: 2px;}
+    .custom-heading h5 {font-size: 18px;margin-bottom: 5px;}
+    .counter-part .counter-text li .custom-paragraph {font-size: 15px;}
+    .procedures-content .custom-paragraph.procedures-para::after {width: 80px;top: 16px;}
+    .procedures-content .custom-paragraph.procedures-para {padding: 0 0px 0 90px;}
+    .procedures-btn {margin-top: 30px;}
+    .galley-btn {margin-top: 20px;}
+    .testimonial.custom-pad .client-img img {width: 11% !important;height: 106px;}
+    .footer-box .custom-paragraph {font-size: 14px;line-height: 28px;}
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+	.custom-header::after {width: 120px;}
+    .custom-header::before {left: 120px; border-top: 57px solid transparent;border-left: 40px solid var(--c-black-900);border-bottom: 81px solid transparent;}
+    .custom-header .nav-item {padding: 0 0 0 6px;}
+    .custom-banner .banner-wrap {padding: 130px 0;}
+    .banner-content h1 {font-size: 50px;padding-right: 350px;}
+    .custom-heading h2 {font-size: 40px;}
+    .about-bg-1 img {top: 85%;left: 0%;}
+    .about-bg-1 img {width: 44% !important;height: 195px !important;}
+    .gallery-text {padding-left: 60px;}
+    .testimonial.custom-pad .custom-heading {padding: 0px 200px;}
+    .our-company-heading .heading-1 {font-size: 35px;margin-top: 10px;}
+    .custom-footer.custom-pad .footer-wrap {padding: 0 15px 0 15px;}
+    .footer-box.padding .footer-list {padding-left: 20px;}
+    .header-logo {left: 10px;bottom: 24px;}
+    .custom-header .header-nav {padding: 0 15px 0 0;}
+    .custom-header .header-top_content.d-flex.justify-content-end {padding: 0 15px 0 0px;}
+    .custom-header .header-contact li a {font-size: 20px;}
+    .about.custom-pad .about-img {text-align: center;}
+    .about.custom-pad .about-img img {width: 90%;height: 600px;}
+    .about-bg-2 img {width: 9% !important;height: 40px !important;}
+    .about-bg-2 img {right: -9%;}
+    .custom-header .header-contact {padding-left: 0px;}
+    .about-content {padding: 0 0px 0 20px;}
+    .surgery-img img {width: 45%;height: 640px;}
+    .counter-part .counter-text li {font-size: 50px;}
+    .counter-part {margin-top: 20px;}
+    .procedures-bottom {margin-top: 50px;}
+    .procedures-content .custom-paragraph.procedures-para {margin-top: 40px;}
+    .testimonial-content {margin-top: 50px;}
+    .testimonial.custom-pad .quote-img img {margin-bottom: 20px;}
+    .testimonial.custom-pad .client-img {margin-top: 25px;}
+    .testimonial-content h4 {padding-top: 15px;}
+    .testimonial-content h6 {padding-top: 5px;}
+    .custom-header .header-contact li h5 {font-size: 13px;}
+    .custom-pad {padding: 80px 0;}
+    .about-content .custom-paragraph {margin-top: 20px;}
+    .about.custom-pad {padding-bottom: 170px;}
+    .counter-part .counter-text li .custom-paragraph {margin-top: 15px;line-height: 26px;}
+    .counter-part .counter-text li h3 {font-size: 24px;}
+    .procedures-bottom-text h4 {font-size: 16px;padding: 15px 25px;}
+    .procedures-bottom-text {bottom: -25px;}
+    .custom-paragraph {font-size: 16px;line-height: 32px;}
+    .custom-footer.custom-pad {padding: 80px 0 0;}
+    .footer-box .footer-list li {font-size: 14px;}
+    .copyright {margin-top: 80px;}
+    .copyright .custom-paragraph {font-size: 14px;}
+    .header-logo .navbar-brand.ms-0.py-0 img {height: 80px; display: inline-block;}
+    .custom-header .header-top {padding: 0px 0;}
+    .custom-header .header-nav .nav-link {font-size: 15px;}
+    .custom-header .header-top .demo.d-none.d-sm-block {font-size: 12px;}
+    .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li::after {height: 52px;}
+    .custom-header .header-contact li a {padding-right: 2px;}
+    .custom-heading h5 {font-size: 18px;margin-bottom: 5px;}
+    .counter-part .counter-text li .custom-paragraph {font-size: 15px;}
+    .procedures-content .custom-paragraph.procedures-para::after {width: 80px;top: 16px;}
+    .procedures-content .custom-paragraph.procedures-para {padding: 0 0px 0 90px;}
+    .procedures-btn {margin-top: 30px;}
+    .galley-btn {margin-top: 20px;}
+    .testimonial.custom-pad .client-img img {width: 11% !important;height: 106px;}
+    .footer-box .custom-paragraph {font-size: 14px;line-height: 28px;}
+    .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li a {font-size: 16px;}
+    .banner-btn {margin-top: 30px;}
+    .testimonial-content .custom-paragraph {padding: 0 120px;}
+    .footer-box.contact .footer-list li {padding-left: 20px;}
+    .footer-box.contact .footer-list li span {left: -20px;font-size: 14px;}
+    .footer-box img {height: 100px;}
 }
 
 @media only screen and (max-width: 991.98px) {    

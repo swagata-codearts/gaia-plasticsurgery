@@ -3,7 +3,7 @@ jQuery('#banner-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
-    dots:true,
+    dots:false,
     responsive:{
         0:{
             items:1
@@ -20,6 +20,7 @@ jQuery('#testimonial-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
+    dots:false,
     responsive:{
         0:{
             items:1
