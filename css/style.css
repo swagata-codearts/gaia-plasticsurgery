@@ -733,7 +733,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 .custom-inner-banner .inner-banner-content h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: var(--ff-primary);
   font-weight: 500;
   color: var(--c-white-900);

@@ -21,7 +21,6 @@
     .our-company-heading .heading-1 {font-size: 50px;}
     .custom-footer.custom-pad .footer-wrap {padding: 0 50px 0 120px;}
     .footer-box.padding .footer-list {padding-left: 40px;}
-
     .about.custom-pad {padding-bottom: 282px;}
     .procedure-pattern-1 img {width: 80%;}
     .procedure-pattern-1 {right: -15%;bottom: 38%;}
@@ -31,6 +30,9 @@
     .about-bg-1 img {width: 54% !important;height: 355px !important;}
     .about-bg-1 img {top: 74%;left: -10%;}
     .procedure-pattern-1 {right: 0;text-align: end;}
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 190px;}
+
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
@@ -64,7 +66,6 @@
     .testimonial.custom-pad .client-img {margin-top: 25px;}
     .testimonial-content h4 {padding-top: 15px;}
     .testimonial-content h6 {padding-top: 5px;}
-
     .about.custom-pad {padding-bottom: 282px;}
     .procedure-pattern-1 img {width: 50%;}
     .procedure-pattern-1 {right: 0;text-align: end;bottom: 42%;}
@@ -76,6 +77,12 @@
     .procedures.custom-pad {padding-bottom: 125px;}
     .gallery.custom-pad {padding-bottom: 105px;}
     .our-company.custom-pad {padding: 100px 0;}
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 190px;}
+    .custom-inner-banner {padding: 110px 0;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 60px;}
+    .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 70px;}
+
 }
 @media (min-width: 1200px) and (max-width: 1366px){
     .custom-header::after {width: 180px;}
@@ -121,19 +128,27 @@
     .footer-box .footer-list li {font-size: 15px;}
     .copyright {margin-top: 100px;}
     .copyright .custom-paragraph {font-size: 15px;}
-
     .about.custom-pad {padding-bottom: 282px;}
     .procedure-pattern-1 img {width: 50%;}
     .procedure-pattern-1 {right: 0;text-align: end;bottom: 36%;}
     .procedure-pattern-2 {bottom: 38%;right: 25%;}
     .procedure-pattern img {width: 50%;}
     .procedure-pattern {top: 0px;left: 0px;}
-    .about-bg-1 img {width: 40% !important;height: 225px !important;}
+    .about-bg-1 img {width: 40% !important;height: 255px !important;}
     .about-bg-1 img {top: 80%;left: 0%;}
     .procedures.custom-pad {padding-bottom: 125px;}
     .gallery.custom-pad {padding-bottom: 105px;}
     .our-company.custom-pad {padding: 100px 0;}
     .procedures-bottom {margin-top: 150px;}
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 170px;}
+    .custom-inner-banner {padding: 110px 0;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 60px;}
+    .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 70px;}
+    .about-service-box-content .about-service-box-icon {font-size: 50px;}
+    .about-inner-counter-content h4 {font-size: 26px;}
+    .about-inner-counter-content::after {height: 160px;}
+
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -194,20 +209,30 @@
     .galley-btn {margin-top: 20px;}
     .testimonial.custom-pad .client-img img {width: 11% !important;height: 106px;}
     .footer-box .custom-paragraph {font-size: 14px;line-height: 28px;}
-
     .about.custom-pad {padding-bottom: 210px;}
     .procedure-pattern-1 img {width: 50%;}
     .procedure-pattern-1 {right: 0;text-align: end;bottom: 36%;}
     .procedure-pattern-2 {bottom: 37%;right: 28%;}
     .procedure-pattern img {width: 50%;}
     .procedure-pattern {top: 0px;left: 0px;}
-    .about-bg-1 img {width: 40% !important;height: 185px !important;}
+    .about-bg-1 img {width: 40% !important;height: 225px !important;}
     .about-bg-1 img {top: 85%;left: 0%;}
     .procedures.custom-pad {padding-bottom: 115px;}
     .gallery.custom-pad {padding-bottom: 95px;}
     .procedures-bottom {margin-top: 90px;}
     .testimonial.custom-pad {padding-bottom: 80px;}
     .our-company.custom-pad {padding: 80px 0;}
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 130px;}
+    .custom-inner-banner {padding: 90px 0;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 55px;}
+    .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 60px;}
+    .about-service-box-content .about-service-box-icon {font-size: 40px;}
+    .about-inner-counter-content h4 {font-size: 24px;}
+    .about-service-box-content {padding: 20px 20px;}
+    .about-service-box-content h3 {font-size: 24px;}
+    .about-inner-counter-content::after {height: 150px;}
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -249,7 +274,7 @@
     .counter-part .counter-text li h3 {font-size: 24px;}
     .procedures-bottom-text h4 {font-size: 16px;padding: 15px 25px;}
     .procedures-bottom-text {bottom: -25px;}
-    .custom-paragraph {font-size: 16px;line-height: 32px;}
+    .custom-paragraph {font-size: 16px;line-height: 30px;}
     .custom-footer.custom-pad {padding: 80px 0 0;}
     .footer-box .footer-list li {font-size: 14px;}
     .copyright {margin-top: 80px;}
@@ -274,7 +299,6 @@
     .footer-box.contact .footer-list li {padding-left: 20px;}
     .footer-box.contact .footer-list li span {left: -20px;font-size: 14px;}
     .footer-box img {height: 100px;}
-
     .about.custom-pad {padding-bottom: 180px;}
     .procedure-pattern-1 img {width: 50%;}
     .procedure-pattern-1 {right: 0;text-align: end;bottom: 33%;}
@@ -288,6 +312,17 @@
     .procedures-bottom {margin-top: 90px;}
     .testimonial.custom-pad {padding-bottom: 80px;}
     .our-company.custom-pad {padding: 80px 0;}
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 130px;}
+    .custom-inner-banner {padding: 90px 0;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 55px;}
+    .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 60px;}
+    .about-service-box-content .about-service-box-icon {font-size: 40px;}
+    .about-inner-counter-content h4 {font-size: 24px;}
+    .about-service-box-content {padding: 20px 20px;}
+    .about-service-box-content h3 {font-size: 24px;}
+    .about-inner-counter-content::after {height: 150px;}
+
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -341,7 +376,7 @@
 .counter-part .counter-text li h3 {font-size: 24px;}
 .procedures-bottom-text h4 {font-size: 16px;padding: 15px 25px;}
 .procedures-bottom-text {bottom: -25px;}
-.custom-paragraph {font-size: 16px;line-height: 32px;}
+.custom-paragraph {font-size: 16px;line-height: 28px;}
 .custom-footer.custom-pad {padding: 60px 0 0;}
 .footer-box .footer-list li {font-size: 14px;}
 .copyright {margin-top: 60px;}
@@ -377,7 +412,6 @@
 .footer-box.padding.contact {margin-bottom: 0 !important;}
 .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li::after {left: 18px;}
 .about.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
-
 .about.custom-pad {padding-bottom: 60px;}
 .procedure-pattern-1 img {display: none;}
 .procedure-pattern-1 {display: none;}
@@ -391,6 +425,20 @@
 .procedures-bottom {margin-top: 50px;}
 .testimonial.custom-pad {padding-bottom: 60px;}
 .our-company.custom-pad {padding: 60px 0;}
+/*About-us*/
+.about.inner.custom-pad {padding-bottom: 60px;}
+.custom-inner-banner {padding: 90px 0;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 55px;}
+.about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 60px;}
+.about-service-box-content .about-service-box-icon {font-size: 40px;}
+.about-inner-counter-content h4 {font-size: 24px;}
+.about-service-box-content {padding: 20px 20px;}
+.about-service-box-content h3 {font-size: 24px;}
+.about-inner-counter-content::after {height: 140px;}
+.custom-inner-banner .inner-banner-content {text-align: center;}
+.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb {justify-content: center;}
+.about-service.custom-pad .custom-heading {margin-bottom: 40px;}
+
 }
 
 
@@ -413,7 +461,6 @@
 .custom-pad {padding: 40px 0;}
 .custom-paragraph {font-size: 14px;line-height: 25px;}
 .gallery.custom-pad .gallery-custom-img img {height: auto;}
-
 .about.custom-pad {padding-bottom: 40px;}
 .about-bg-1 img {width: 40% !important;height: 215px !important;}
 .about-bg-1 img {top: 85%;left: 0%;}
@@ -422,6 +469,11 @@
 .procedures-bottom {margin-top: 40px;}
 .testimonial.custom-pad {padding-bottom: 40px;}
 .our-company.custom-pad {padding: 40px 0;}
+/*About-us*/
+.about.inner.custom-pad {padding-bottom: 40px;}
+.custom-inner-banner {padding: 80px 0;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 45px;}
+.about-inner-counter-content::after {display: none;}
 }
 
 @media (max-width: 575.98px){
@@ -447,10 +499,21 @@
 .custom-header .navbar-expand-lg .navbar-nav {align-items: end;}
 .custom-header .header-contact {padding: 10px 0 10px 0;}
 .custom-header .header-nav .nav-link {font-size: 15px;}
-
 .about-bg-1 img {width: 40% !important;height: 115px !important;}
 .about-bg-1 img {top: 65%;left: -4%;}
 .about-content {margin-top: 35px;}
 .counter-part .counter-text li {font-size: 40px;}
 .gallery.custom-pad {padding-bottom: 45px;}
+/*About-us*/
+.about.inner.custom-pad {padding-bottom: 40px;}
+.custom-inner-banner {padding: 80px 0;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 35px;}
+.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item {font-size: 16px;}
+.about-service.custom-pad .custom-heading {text-align: center;margin-bottom: 30px;}
+.about-service-box-content {text-align: center;}
+.about-service-box-content .about-service-box-icon {font-size: 50px;}
+.about-inner-counter-content h4 {font-size: 22px;margin-top: 6px;}
+.about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 45px;}
+.about-inner-counter-content {margin-bottom: 20px;}
 }
+
