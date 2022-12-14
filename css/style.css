@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /******** Custom Properties ********/
 .custom-pad {
-  padding: 120px 0;
+  padding: 130px 0;
 }
 .custom-header {
   /* change header bg here */
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*About*/
 .about.custom-pad {
-  padding-bottom: 290px;
+  padding-bottom: 322px;
   position: relative;
 }
 .about.custom-pad .about-img img {
@@ -393,6 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 .procedures.custom-pad {
   background-color: #2c2647;
   position: relative;
+  padding-bottom: 202px;
 }
 
 .surgery-img img {
@@ -403,6 +404,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
   position: absolute;
   top: -70px;
+  z-index: 2;
 }
 .counter-part .counter-text {
   display: flex;
@@ -454,6 +456,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .counter-part {
   margin-top: 85px;
+  position: relative;
+}
+.procedure-pattern {
+  position: absolute;
+  top: -40px;
+  left: -190px;
+}
+.procedure-pattern {
+  width: 100%;
+  object-fit: cover;
 }
 .procedures-bottom-wrap img {
   width: 100%;
@@ -487,12 +499,33 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-white-900);
   border-color: var(--c-white-900);
 }
+.procedure-pattern-1 {
+  position: absolute;
+  right: 70px;
+  bottom: 34%;
+  z-index: 0;
+}
+.procedure-pattern-1 img {
+  width: 100%;
+  object-fit: cover;
+}
+.procedure-pattern-2 {
+  position: absolute;
+  bottom: 37%;
+  z-index: 0;
+  right: 33%;
+}
+.procedure-pattern-2 img {
+  width: 100%;
+  object-fit: cover;
+}
 /*Gallery*/
 .gallery.custom-pad {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  padding-bottom: 165px;
 }
 .gallery.custom-pad .gallery-custom-img img {
   width: 100%;
@@ -516,6 +549,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .testimonial.custom-pad {
   background-color: #f6fafd;
+  padding-bottom: 97px;
 }
 .testimonial.custom-pad .quote-img img {
   width: 6% !important;
@@ -563,6 +597,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
+  padding: 115px 0;
 }
 /*Our Company*/
 .our-company-heading .heading-1 {
@@ -638,7 +673,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   background-color: var(--c-black-800);
   padding: 15px 0;
-  margin-top: 120px;
+  margin-top: 75px;
 }
 .copyright .custom-paragraph {
   font-family: var(--ff-secondary);
@@ -647,7 +682,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-white-900);
 }
 .custom-footer.custom-pad {
-  padding: 120px 0 0;
+  padding: 70px 0 0;
 }
 .footer-box .custom-paragraph {
   margin-top: 36px;
