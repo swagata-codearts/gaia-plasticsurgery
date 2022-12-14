@@ -256,11 +256,15 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   vertical-align: middle;
 }
-.custom-header .header-contact li  a {
+.custom-header .header-contact li a {
   text-decoration: none;
   color: var(--c-tertiary);
   font-size: 40px;
   padding-right: 6px;
+  transition: all 0.3s ease-in-out;
+}
+.custom-header .header-contact li a:hover {
+  color: var(--c-primary);
 }
 .custom-header .header-contact li h6 {
   font-family: var(--ff-secondary);
@@ -293,11 +297,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 400;
   color: var(--c-tertiary);
+  transition: all 0.2s ease-in-out;
+}
+.custom-header .header-top .demo.d-none.d-sm-block:hover {
+  color:var(--c-primary);
 }
 .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li a {
   text-decoration: none;
   color: #222;
   font-size: 17px;
+  transition: all 0.2s ease-in-out;
+}
+.custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li a:hover {
+  color:var(--c-tertiary);
 }
 .custom-header .d-flex.header-top_contact {
   align-items: center;
@@ -644,13 +656,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-secondary);
   font-size: 17px;
   font-weight: 400;
-  color: var(--c-tertiary);
   padding: 10px 0;
+}
+.footer-box  .footer-list li a {
+  text-decoration: none;
+  color: var(--c-tertiary);
+  transition: all 0.3s ease-in-out;
+}
+.footer-box  .footer-list li a:hover {
+  color:var(--c-primary)
 }
 .footer-box.contact .footer-list li a {
   text-decoration: none;
   color: var(--c-tertiary);
   position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.footer-box.contact .footer-list li a:hover {
+  color:var(--c-primary)
 }
 .footer-box.contact .footer-list li {
   padding-left: 30px;
