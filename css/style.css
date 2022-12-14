@@ -712,4 +712,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* *************** <add section name> Section End *************** */
 
-/* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
+/* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
+/* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* INNER PAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
+.custom-inner-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 130px 0;
+  position: relative;
+  z-index: 2;
+}
+.custom-inner-banner::after {
+  position: absolute;
+  content: '';
+  background-color: rgba(44,38,71,0.92);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.custom-inner-banner .inner-banner-content h1 {
+  font-size: 60px;
+  font-family: var(--ff-primary);
+  font-weight: 500;
+  color: var(--c-white-900);
+}
+.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item {
+  font-family: var(--ff-secondary);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--c-white-900);
+}
+.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item a {
+  text-decoration: none;
+  color: var(--c-white-900);
+  transition: all 0.3s ease-in-out;
+}
+.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item a:hover {
+  color: var(--c-secondary);
+}
+.custom-inner-banner .inner-banner-content .inner-banner-text {
+  margin-top: 12px;
+}
+.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item + .breadcrumb-item::before {
+  color: var(--c-white-900);
+}
+.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb {
+  margin-bottom: 0rem;
+}
+/* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* INNER PAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
