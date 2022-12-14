@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
 .procedure-pattern-1 {
   position: absolute;
   right: 70px;
-  bottom: 34%;
+  bottom: 38%;
   z-index: 0;
 }
 .procedure-pattern-1 img {
@@ -511,7 +511,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .procedure-pattern-2 {
   position: absolute;
-  bottom: 37%;
+  bottom: 40%;
   z-index: 0;
   right: 33%;
 }
