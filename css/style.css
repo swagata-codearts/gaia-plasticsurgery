@@ -833,4 +833,20 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 70px;
 }
+.gallery.custom-pad.gallery-inner.gallery-carousel {
+  display: none;
+}
+.gallery-inner-content-left {
+  position: relative;
+}
+.gallery-inner-content-left::after {
+  position: absolute;
+  content: '';
+  background-color: var(--c-tertiary);
+  width: 1px;
+  height: 180px;
+  top: 12px;
+  right: 30px;
+  opacity: 0.4;
+}
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* INNER PAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */

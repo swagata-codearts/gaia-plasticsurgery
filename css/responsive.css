@@ -82,6 +82,8 @@
     .custom-inner-banner {padding: 110px 0;}
     .custom-inner-banner .inner-banner-content h1 {font-size: 60px;}
     .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 70px;}
+    /*Gallery*/
+    .gallery-inner-content-left::after {height: 130px;right: 20px;}
 
 }
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -148,6 +150,8 @@
     .about-service-box-content .about-service-box-icon {font-size: 50px;}
     .about-inner-counter-content h4 {font-size: 26px;}
     .about-inner-counter-content::after {height: 160px;}
+    /*Gallery*/
+    .gallery-inner-content-left::after {height: 140px;right: 10px;}
 
 }
 
@@ -232,6 +236,9 @@
     .about-service-box-content {padding: 20px 20px;}
     .about-service-box-content h3 {font-size: 24px;}
     .about-inner-counter-content::after {height: 150px;}
+    /*Gallery*/
+    .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
+    .gallery-inner-content-left::after {height: 160px;right: 10px;}
 
 }
 
@@ -322,7 +329,9 @@
     .about-service-box-content {padding: 20px 20px;}
     .about-service-box-content h3 {font-size: 24px;}
     .about-inner-counter-content::after {height: 150px;}
-
+    /*Gallery*/
+    .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
+    .gallery-inner-content-left::after {height: 160px;right: 10px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -340,7 +349,7 @@
 .custom-header .nav-item {padding: 0 0 0 6px;}
 .custom-banner .banner-wrap {padding: 130px 0;}
 .banner-content h1 {font-size: 45px;padding-right: 0px;}
-.custom-heading h2 {font-size: 35px;}
+.custom-heading h2 {font-size: 30px;}
 .about-bg-1 img {top: 75%;left: 0%;}
 .about-bg-1 img {width: 44% !important;height: auto !important;}
 .gallery-text {padding-left: 0px;margin-top: 20px;}
@@ -425,20 +434,26 @@
 .procedures-bottom {margin-top: 50px;}
 .testimonial.custom-pad {padding-bottom: 60px;}
 .our-company.custom-pad {padding: 60px 0;}
-/*About-us*/
-.about.inner.custom-pad {padding-bottom: 60px;}
-.custom-inner-banner {padding: 90px 0;}
-.custom-inner-banner .inner-banner-content h1 {font-size: 55px;}
-.about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 60px;}
-.about-service-box-content .about-service-box-icon {font-size: 40px;}
-.about-inner-counter-content h4 {font-size: 24px;}
-.about-service-box-content {padding: 20px 20px;}
-.about-service-box-content h3 {font-size: 24px;}
-.about-inner-counter-content::after {height: 140px;}
-.custom-inner-banner .inner-banner-content {text-align: center;}
-.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb {justify-content: center;}
-.about-service.custom-pad .custom-heading {margin-bottom: 40px;}
-
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 60px;}
+    .custom-inner-banner {padding: 90px 0;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 55px;}
+    .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 60px;}
+    .about-service-box-content .about-service-box-icon {font-size: 40px;}
+    .about-inner-counter-content h4 {font-size: 24px;}
+    .about-service-box-content {padding: 20px 20px;}
+    .about-service-box-content h3 {font-size: 24px;}
+    .about-inner-counter-content::after {height: 140px;}
+    .custom-inner-banner .inner-banner-content {text-align: center;}
+    .custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb {justify-content: center;}
+    .about-service.custom-pad .custom-heading {margin-bottom: 40px;}
+    /*Gallery*/
+    .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
+    .gallery.custom-pad.gallery-inner.gallery-carousel {display: block;}
+    .gallery.custom-pad.gallery-inner {display: none;}
+    .gallery.custom-pad.gallery-inner.gallery-carousel #gallery-carousel {margin-top: 20px;}
+    .gallery-inner-content-right {margin-top: 20px;}
+    .gallery-inner-content-left::after {display: none;}
 }
 
 
@@ -469,11 +484,15 @@
 .procedures-bottom {margin-top: 40px;}
 .testimonial.custom-pad {padding-bottom: 40px;}
 .our-company.custom-pad {padding: 40px 0;}
-/*About-us*/
-.about.inner.custom-pad {padding-bottom: 40px;}
-.custom-inner-banner {padding: 80px 0;}
-.custom-inner-banner .inner-banner-content h1 {font-size: 45px;}
-.about-inner-counter-content::after {display: none;}
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 40px;}
+    .custom-inner-banner {padding: 80px 0;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 45px;}
+    .about-inner-counter-content::after {display: none;}
+    /*Gallery*/
+    .gallery-inner-content-left {text-align: center;}
+    .gallery-inner-content-right {text-align: center;}
+    .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 35px;}
 }
 
 @media (max-width: 575.98px){
@@ -483,7 +502,7 @@
 .custom-header .header-icon li {padding: 0 0px 0 15px !important;}
 .banner-content h1 {font-size: 32px;}
 .about.custom-pad .about-img img {width: 100%;height: auto;}
-.custom-heading h2 {font-size: 26px;}
+.custom-heading h2 {font-size: 24px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 5px;}
 .procedures-content .custom-paragraph.procedures-para::after {display: none;}
 .procedures-content .custom-paragraph.procedures-para {padding: 0 0px 0 0px;}
@@ -504,17 +523,19 @@
 .about-content {margin-top: 35px;}
 .counter-part .counter-text li {font-size: 40px;}
 .gallery.custom-pad {padding-bottom: 45px;}
-/*About-us*/
-.about.inner.custom-pad {padding-bottom: 40px;}
-.custom-inner-banner {padding: 80px 0;}
-.custom-inner-banner .inner-banner-content h1 {font-size: 34px;}
-.custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item {font-size: 14px;}
-.custom-inner-banner .inner-banner-content .inner-banner-text {margin-top: 16px;}
-.about-service.custom-pad .custom-heading {text-align: center;margin-bottom: 30px;}
-.about-service-box-content {text-align: center;}
-.about-service-box-content .about-service-box-icon {font-size: 50px;}
-.about-inner-counter-content h4 {font-size: 22px;margin-top: 6px;}
-.about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 45px;}
-.about-inner-counter-content {margin-bottom: 20px;}
+    /*About-us*/
+    .about.inner.custom-pad {padding-bottom: 40px;}
+    .custom-inner-banner {padding: 80px 0;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 34px;}
+    .custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item {font-size: 14px;}
+    .custom-inner-banner .inner-banner-content .inner-banner-text {margin-top: 16px;}
+    .about-service.custom-pad .custom-heading {text-align: center;margin-bottom: 30px;}
+    .about-service-box-content {text-align: center;}
+    .about-service-box-content .about-service-box-icon {font-size: 50px;}
+    .about-inner-counter-content h4 {font-size: 22px;margin-top: 6px;}
+    .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 45px;}
+    .about-inner-counter-content {margin-bottom: 20px;}
+    /*Gallery*/
+    .gallery.custom-pad.gallery-inner.gallery-carousel #gallery-carousel {margin-top: 0px;}
 }
 
