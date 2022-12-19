@@ -972,4 +972,29 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
   border-radius: 10px;
 }
+/*Procedures Inner*/
+.procedurs-inner-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.procedurs-inner.custom-pad .custom-heading {
+  text-align: center;
+}
+.procedurs-inner-img {
+  margin-top: 60px;
+}
+.procedurs-inner-content {
+  margin-top: 60px;
+  text-align: center;
+}
+.custom-paragraph.second-para {
+  border-top: 1px solid var(--c-tertiary);
+  border-top-style: dashed;
+  padding-top: 20px;
+}
+.procedurs-inner-content .custom-paragraph {
+  padding-bottom: 20px;
+}
+
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* INNER PAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
