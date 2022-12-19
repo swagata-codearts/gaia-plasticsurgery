@@ -995,5 +995,29 @@ h1, h2, h3, h4, h5, h6 {
 .procedurs-inner-content .custom-paragraph {
   padding-bottom: 20px;
 }
-
+/*Testimonial*/
+.recent-client .testimonial-content .custom-paragraph {
+  padding: 0 0px;
+}
+.recent-client .testimonial-content-2 .custom-paragraph {
+  padding: 0 0px;
+}
+.recent-client .testimonial-content {
+  margin-top: 0px;
+  border-bottom:1px dashed var(--c-tertiary);
+  padding-bottom: 30px;
+}
+.recent-client .testimonial-content-2 {
+  margin-top: 20px;
+}
+.recent-client {
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  padding: 50px;
+  border-radius: 10px;
+}
+.testimonial-content.second-review {
+  border-bottom: 1px dashed transparent;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* INNER PAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
