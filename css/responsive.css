@@ -90,6 +90,10 @@
     .contact-inner.custom-pad .custom-heading {padding: 0px 340px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 17px;line-height: 35px;}
+    /*Procedures Inner*/
+    .procedurs-inner-img {margin-top: 50px;}
+    .procedurs-inner-content {margin-top: 50px;}
+
 
 }
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -163,6 +167,9 @@
     .contact-inner.custom-pad .custom-heading {padding: 0px 260px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 32px;}
+    /*Procedures Inner*/
+    .procedurs-inner-img {margin-top: 50px;}
+    .procedurs-inner-content {margin-top: 50px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -255,6 +262,9 @@
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
+    /*Procedures Inner*/
+    .procedurs-inner-img {margin-top: 35px;}
+    .procedurs-inner-content {margin-top: 35px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -353,6 +363,9 @@
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
+    /*Procedures Inner*/
+    .procedurs-inner-img {margin-top: 35px;}
+    .procedurs-inner-content {margin-top: 35px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -497,8 +510,12 @@
     .pro-inner .nav-pills::before {right: 0px;}
     .pro-inner-wrap {flex-direction: column;}
     .pro-inner-image img {width: 100%;object-fit: cover;}
-    .pro-inner-wrap {height: auto;}
+    .pro-inner-wrap {height: auto;margin-top: 20px;}
     .pro-inner .nav-pills::before {display: none;}
+    /*Procedures Inner*/
+    .procedurs-inner-img {margin-top: 35px;}
+    .procedurs-inner-content {margin-top: 35px;}
+    .procedurs-inner.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
 }
 
 
@@ -547,6 +564,9 @@
     .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 15px;}
     .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 15px;}
     .pro-inner-wrap .right {gap: 15px;}
+    /*Procedures Inner*/
+    .procedurs-inner-img {margin-top: 35px;}
+    .procedurs-inner-content {margin-top: 25px;}
 }
 
 @media (max-width: 575.98px){
@@ -580,9 +600,9 @@
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 40px;}
     .custom-inner-banner {padding: 80px 0;}
-    .custom-inner-banner .inner-banner-content h1 {font-size: 34px;}
+    .custom-inner-banner .inner-banner-content h1 {font-size: 30px;}
     .custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb-item {font-size: 14px;}
-    .custom-inner-banner .inner-banner-content .inner-banner-text {margin-top: 16px;}
+    .custom-inner-banner .inner-banner-content .inner-banner-text {margin-top: 10px;}
     .about-service.custom-pad .custom-heading {text-align: center;margin-bottom: 30px;}
     .about-service-box-content {text-align: center;}
     .about-service-box-content .about-service-box-icon {font-size: 50px;}
@@ -598,5 +618,8 @@
     .contact-inner.custom-pad .contact-map {margin-top: 30px;}
     /*Procedures*/
     .pro-inner-wrap {padding: 20px;}
+    /*Procedures Inner*/
+    .procedurs-inner-img {margin-top: 20px;}
+    .procedurs-inner-content {margin-top: 15px; text-align: center;}
 }
 
