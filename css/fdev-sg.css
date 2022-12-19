@@ -88,52 +88,54 @@
   border-radius: 10px;
 }
 /* *************** <add section name> Section End *************** */
-
-@media (min-width: 1500px) and (max-width: 1600px){
-
-}
-
-@media (min-width: 1400px) and (max-width: 1500px){
+@media (min-width: 1850px) and (max-width: 1920px){
 	
 }
 
-@media (min-width: 1300px) and (max-width: 1400px){
+@media (min-width: 1700px) and (max-width: 1850px){
+
+}
+
+@media (min-width: 1600px) and (max-width: 1700px){
 	
 }
-@media (min-width: 1200px) and (max-width: 1300px){
-	
+
+@media (min-width: 1366px) and (max-width: 1600px){
+	/*Procedures*/
+  .pro-inner.custom-pad .demo {font-size: 17px;line-height: 35px;}
+  
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+	/*Procedures*/
+  .pro-inner.custom-pad .demo {font-size: 16px;line-height: 32px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+	/*Procedures*/
+  .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+	/*Procedures*/
+  .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
 }
 
-@media only screen and (max-width: 991.98px) {    
-  .pills-tab-wrap {
-    flex-direction: column;
-  }
-  .pro-inner .nav-pills {
-    flex: 0 0 100%;
-  padding-right: 0px;
-  flex-direction: row !important;margin: auto !important;
-  }
-  .pro-inner-pill img {
-    width: 42px;
-    height: 42px;
-  padding: 2px;
-  }
-  .pro-inner .nav-pills .nav-link {
-    height: 70px;
-  padding: 10px;
-  }
-  .pro-inner-pill span {font-size: 13px;}
-  .pro-inner-pill {
-    gap: 7px;
-  }
+@media only screen and (max-width: 991.98px) {  
+  /*Procedures*/  
+  .pills-tab-wrap {flex-direction: column;}
+  .pro-inner .nav-pills {flex: 0 0 100%;padding-right: 0px;flex-direction: row !important;margin: auto !important;}
+  .pro-inner-pill img {width: 42px;height: 42px;padding: 2px;}
+  .pro-inner .nav-pills .nav-link {height: 70px;padding: 10px;}
+  .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 13px;}
+  .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 13px;}
+  .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 13px;}
+  .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 13px;}
+  .pro-inner-pill {gap: 7px;}
+  .pro-inner.custom-pad .demo {font-size: 16px;line-height: 28px;}
+  .pro-inner .nav-pills .nav-link {border-bottom: 2px solid transparent;}
+  .pro-inner .nav-pills .nav-link:first-child {border-top: 2px solid transparent;}
+  .pro-inner .nav-pills .nav-link.active::before {right: -7px;}
+  .pro-inner .nav-pills::before {right: 0px;}
 
 }
 
