@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 56px;
   letter-spacing: 1px;
   position: relative;
+  line-height: 0;
 }
 /* If there is a button icon */
 .custom-button {
@@ -121,6 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-button span {
   margin: 0;
+  margin-left: 12px;
 }
 /* Basic Button Hover */
 .custom-button:hover {
@@ -178,9 +180,9 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   width: 0;
   height: 0;
-  border-top: 61px solid transparent;
-  border-left: 80px solid var(--c-black-900);
-  border-bottom: 132px solid transparent;
+  border-top: 73px solid transparent;
+  border-left: 40px solid var(--c-black-900);
+  border-bottom: 110px solid transparent;
   left: 300px;
   top: auto;
   bottom: 0;
@@ -195,11 +197,14 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   z-index: 1;
 }
-.header-logo {
+.custom-header .header-logo {
   position: relative;
   z-index: 2;
   left: 105px;
   bottom: 40px;
+}
+.custom-header .header-logo img {
+  width: 75%;
 }
 .custom-header .header-top_content.d-flex.justify-content-end {
   padding: 0 70px 0 0px;
@@ -227,14 +232,15 @@ h1, h2, h3, h4, h5, h6 {
 .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li::after {
   position: absolute;
   content: '';
-  background-color: var(--c-tertiary);
+  background-color: #e0e0e0;
   width: 1px;
-  height: 62px;
-  top: -10px;
+  height: 72px;
+  top: -15px;
   left: 21px;
 }
 .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li:last-child::after {
-  top: -20px;
+  top: -26px;
+  height: 73px;
 }
 .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li:first-child:after {
   display: none;
@@ -247,6 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   font-weight: 500;
   color: var(--c-primary);
+  text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
 .custom-header .header-nav .nav-link:hover {
@@ -258,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-header .header-contact li a {
   text-decoration: none;
-  color: var(--c-tertiary);
+  color: #54524d;
   font-size: 40px;
   padding-right: 6px;
   transition: all 0.3s ease-in-out;
@@ -285,12 +292,12 @@ h1, h2, h3, h4, h5, h6 {
 .custom-header .header-top_icon {
   padding-right: 10px;
   color: var(--c-tertiary);
-  font-size: 17px;
+  font-size: 28px;
   line-height: 0;
 }
 .custom-header .header-top {
-  padding: 10px 0;
-  border-bottom: 1px solid gray;
+  padding: 16px 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 .custom-header .header-top .demo.d-none.d-sm-block {
   font-family: var(--ff-secondary);
@@ -416,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
   position: absolute;
-  top: -70px;
+  top: -100px;
   z-index: 2;
 }
 .counter-part .counter-text {
@@ -441,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   background-color: var(--c-secondary);
   width: 100px;
-  height: 3px;
+  height: 2px;
   top: 20px;
   left: 0;
 }
@@ -502,11 +509,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-primary);
   font-size: 20px;
   font-weight: 500;
-  color: var(--c-black-800);
-  background-color: var(--c-white-900);
+  background-color: var(--c-white-800);
   display: inline-block;
   padding: 25px 55px;
   border-radius: 10px;
+}
+.procedures-bottom-text h4 a {
+  text-decoration: none;
+  color: var(--c-black-800);
 }
 .procedures.custom-pad .custom-button:hover {
   color: var(--c-white-900);
@@ -534,9 +544,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*Gallery*/
 .gallery.custom-pad {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   position: relative;
   padding-bottom: 165px;
 }
@@ -608,7 +618,7 @@ h1, h2, h3, h4, h5, h6 {
 .our-company.custom-pad {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: 100% 50%;
   position: relative;
   padding: 115px 0;
 }
@@ -633,6 +643,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-white-900);
   border-color: var(--c-white-900);
 }
+.our-company-heading {
+  padding-left: 150px;
+}
+.our-company-content {
+  padding-right: 150px;
+}
 /*Footer*/
 .custom-footer.custom-pad .footer-wrap .footer-box {
   display: inline-block;
@@ -641,6 +657,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-footer.custom-pad .footer-wrap {
   padding: 0 50px 0 130px;
+}
+.custom-footer.custom-pad .footer-wrap .footer-box img {
+  margin-top: -60px;
 }
 .footer-box .footer-list {
   display: inline-block;
@@ -677,15 +696,15 @@ h1, h2, h3, h4, h5, h6 {
   color:var(--c-primary)
 }
 .footer-box.contact .footer-list li {
-  padding-left: 30px;
+  padding-left: 35px;
   position: relative;
   padding-bottom: 10px;
 }
 .footer-box.contact .footer-list li span {
   position: absolute;
-  top: 0;
-  left: -30px;
-  font-size: 18px;
+  top:-6px;
+  left: -35px;
+  font-size: 24px;
 }
 .footer-box.padding .footer-list {
   padding-left: 60px;
@@ -706,10 +725,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-white-900);
 }
 .custom-footer.custom-pad {
-  padding: 70px 0 0;
+  padding: 125px 0 0;
 }
 .footer-box .custom-paragraph {
   margin-top: 36px;
+  font-size: 17px;
+  line-height: 32px;
 }
 /* *************** <add section name> Section End *************** */
 
