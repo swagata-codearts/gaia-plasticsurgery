@@ -886,4 +886,90 @@ h1, h2, h3, h4, h5, h6 {
   width: 100% !important;
   border-radius: 10px;
 }
+/*Procedures*/
+.pro-inner .nav-pills {
+  flex: 0 0 30%;
+  position: relative;
+  padding-right: 16px;
+}
+.pro-inner .nav-pills::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #f2f0fd;
+  right: 0px;
+  border: 5px;
+}
+.pro-inner .nav-pills .nav-link.active, .pro-inner .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--c-primary);
+  position: relative;
+}
+.pro-inner .nav-pills .nav-link.active::before  {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 40px;
+  background-color: var(--c-secondary);
+  right: -17px;
+  border: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.pro-inner .nav-pills .nav-link {
+  height: 100px;
+  border-radius: 0;
+}
+.pro-inner .nav-pills .nav-link {
+  border-bottom: 2px solid rgba(237, 235, 248, 0.6);
+}
+.pro-inner .nav-pills .nav-link:first-child {
+  border-top: 2px solid rgba(237, 235, 248, 0.6);
+}
+.pro-inner-pill {
+  gap: 15px;
+}
+.pro-inner-pill img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50px;
+  border: 1px dashed var(--c-primary);
+  padding: 8px;
+}
+.pro-inner .nav-pills .nav-link.active .pro-inner-pill img  {
+  border-color: var(--c-white);
+}
+.pro-inner-pill span {
+  display: inline-flex;
+  text-transform: capitalize;
+  margin: 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--c-primary);
+}
+.pro-inner .nav-pills .nav-link.active .pro-inner-pill span {
+  color: var(--c-white);
+}
+.pro-inner-wrap {
+  height: 400px;
+  gap: 40px;
+  background-color: rgb(255, 242, 236);
+  padding: 40px;
+  border-radius: 10px;
+}
+.pro-inner-wrap .right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.pro-inner-image img {
+  width: 298px;
+  height: 298px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* INNER PAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */

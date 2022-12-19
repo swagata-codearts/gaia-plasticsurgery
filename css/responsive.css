@@ -88,6 +88,8 @@
     .gallery-inner-content-left::after {height: 130px;right: 20px;}
     /*Contact Us*/
     .contact-inner.custom-pad .custom-heading {padding: 0px 340px;}
+    /*Procedures*/
+    .pro-inner.custom-pad .demo {font-size: 17px;line-height: 35px;}
 
 }
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -159,7 +161,8 @@
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 260px;}
-
+    /*Procedures*/
+    .pro-inner.custom-pad .demo {font-size: 16px;line-height: 32px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -250,7 +253,8 @@
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
-
+    /*Procedures*/
+    .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -347,6 +351,8 @@
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
+    /*Procedures*/
+    .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -474,6 +480,25 @@
     .contact-inner.custom-pad .custom-heading {padding: 0px 160px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
     .contact-inner.custom-pad .contact-map iframe {height: 300px;}
+    /*Procedures*/  
+    .pills-tab-wrap {flex-direction: column;}
+    .pro-inner .nav-pills {flex: 0 0 100%;padding-right: 0px;flex-direction: row !important;margin: auto !important;}
+    .pro-inner-pill img {width: 42px;height: 42px;padding: 2px;}
+    .pro-inner .nav-pills .nav-link {height: 70px;padding: 10px;}
+    .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 13px;}
+    .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 13px;}
+    .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 13px;}
+    .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 13px;}
+    .pro-inner-pill {gap: 7px;}
+    .pro-inner.custom-pad .demo {font-size: 14px;line-height: 25px;}
+    .pro-inner .nav-pills .nav-link {border-bottom: 2px solid transparent;}
+    .pro-inner .nav-pills .nav-link:first-child {border-top: 2px solid transparent;}
+    .pro-inner .nav-pills .nav-link.active::before {right: -7px;}
+    .pro-inner .nav-pills::before {right: 0px;}
+    .pro-inner-wrap {flex-direction: column;}
+    .pro-inner-image img {width: 100%;object-fit: cover;}
+    .pro-inner-wrap {height: auto;}
+    .pro-inner .nav-pills::before {display: none;}
 }
 
 
@@ -516,6 +541,12 @@
     /*Contact Us*/
     .contact-inner.custom-pad .custom-heading {padding: 0px 90px;}
     .contact-inner.custom-pad .contact-form .form-btn {text-align: center;}
+    /*procedures*/
+    .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 15px;}
+    .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 15px;}
+    .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 15px;}
+    .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 15px;}
+    .pro-inner-wrap .right {gap: 15px;}
 }
 
 @media (max-width: 575.98px){
@@ -565,5 +596,7 @@
     .contact-inner.custom-pad .contact-form {margin-top: 25px;padding: 20px 10px;}
     .contact-inner.custom-pad .contact-form .form-control {padding: 14px .75rem;font-size: 12px;}
     .contact-inner.custom-pad .contact-map {margin-top: 30px;}
+    /*Procedures*/
+    .pro-inner-wrap {padding: 20px;}
 }
 
