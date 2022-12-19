@@ -131,18 +131,28 @@
   .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 13px;}
   .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 13px;}
   .pro-inner-pill {gap: 7px;}
-  .pro-inner.custom-pad .demo {font-size: 16px;line-height: 28px;}
+  .pro-inner.custom-pad .demo {font-size: 14px;line-height: 25px;}
   .pro-inner .nav-pills .nav-link {border-bottom: 2px solid transparent;}
   .pro-inner .nav-pills .nav-link:first-child {border-top: 2px solid transparent;}
   .pro-inner .nav-pills .nav-link.active::before {right: -7px;}
   .pro-inner .nav-pills::before {right: 0px;}
+  .pro-inner-wrap {flex-direction: column;}
+  .pro-inner-image img {width: 100%;object-fit: cover;}
+  .pro-inner-wrap {height: auto;}
+  .pro-inner .nav-pills::before {display: none;}
 
 }
 
 @media (max-width: 767.98px){
-    
+  /*procedures*/
+  .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 15px;}
+  .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 15px;}
+  .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 15px;}
+  .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 15px;}
+  .pro-inner-wrap .right {gap: 15px;}
 }
 
 @media (max-width: 575.98px){
-    
+  /*Procedures*/
+  .pro-inner-wrap {padding: 20px;}
 }

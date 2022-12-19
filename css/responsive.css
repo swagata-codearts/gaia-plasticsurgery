@@ -486,7 +486,7 @@
 .about.custom-pad {padding-bottom: 40px;}
 .gallery.custom-pad .custom-heading {text-align: center;}
 .gallery-text {text-align: center;}
-.testimonial.custom-pad .custom-heading {padding: 0px 0px;}
+.testimonial.custom-pad .custom-heading {padding: 0px 10px;}
 .testimonial.custom-pad .client-img img {width: 20% !important;height: 110px;border-radius: 70px;}
 .our-company-heading .heading-1 {font-size: 32px;}
 .our-company-heading .heading-1.extra {margin-top: 12px;}
