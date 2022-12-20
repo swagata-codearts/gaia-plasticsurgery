@@ -542,7 +542,7 @@
 .gallery.custom-pad .px-4 {padding-right: 0px !important;padding-left: 0px !important;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 60px;}
-    .custom-inner-banner {padding: 90px 0;}
+    .custom-inner-banner {padding: 90px 0;position: relative;margin-top: 92px;z-index: 1;}
     .custom-inner-banner .inner-banner-content h1 {font-size: 55px;}
     .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 60px;}
     .about-service-box-content .about-service-box-icon {font-size: 40px;}
@@ -568,7 +568,7 @@
     /*Procedures*/  
     .pills-tab-wrap {flex-direction: column;}
     .pro-inner .nav-pills {flex: 0 0 100%;padding-right: 0px;flex-direction: row !important;margin: auto !important;}
-    .pro-inner-pill img {width: 42px;height: 42px;padding: 2px;}
+    .pro-inner-pill img {width: 42px;height: 42px;padding: 2px;display: none;}
     .pro-inner .nav-pills .nav-link {height: 70px;padding: 10px;}
     .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 13px;}
     .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 13px;}
@@ -578,12 +578,13 @@
     .pro-inner.custom-pad .demo {font-size: 14px;line-height: 25px;}
     .pro-inner .nav-pills .nav-link {border-bottom: 2px solid transparent;}
     .pro-inner .nav-pills .nav-link:first-child {border-top: 2px solid transparent;}
-    .pro-inner .nav-pills .nav-link.active::before {right: -7px;}
+    .pro-inner .nav-pills .nav-link.active::before {right: 0px;width: 60px;height: 3px;top: unset;bottom: -10px;left: 0;margin: 0 auto;}
     .pro-inner .nav-pills::before {right: 0px;}
     .pro-inner-wrap {flex-direction: column;}
-    .pro-inner-image img {width: 100%;object-fit: cover;}
     .pro-inner-wrap {height: auto;margin-top: 20px;}
     .pro-inner .nav-pills::before {display: none;}
+    .pro-inner-desc {margin-top: -10px;}
+    .pro-inner-image img {width: 100%;height: auto;object-fit: cover;}
     /*Procedures Inner*/
     .procedurs-inner-img {margin-top: 35px;}
     .procedurs-inner-content {margin-top: 35px;}
@@ -606,10 +607,12 @@
 .testimonial.custom-pad .custom-heading {padding: 0px 10px;}
 .testimonial.custom-pad .client-img img {width: 20% !important;height: 110px;border-radius: 70px;}
 .our-company-heading .heading-1 {font-size: 32px;}
-.our-company-heading .heading-1.extra {margin-top: 12px;}
-.footer-box .footer-list h4 {margin-bottom: 18px;}
-.copyright {margin-top: 40px;}
+.our-company-heading .heading-1.extra {margin-top: 5px;}
+.footer-box .footer-list h4 {margin-bottom: 8px;}
+.footer-box .footer-list li {padding: 5px 0;}
+.copyright {margin-top: 30px;}
 .custom-pad {padding: 40px 0;}
+.our-company-content {margin-top: 20px;}
 .custom-paragraph {font-size: 14px;line-height: 25px;}
 .gallery.custom-pad .gallery-custom-img img {height: auto;}
 .about.custom-pad {padding-bottom: 40px;}
@@ -637,11 +640,12 @@
     .contact-inner.custom-pad .custom-heading {padding: 0px 90px;}
     .contact-inner.custom-pad .contact-form .form-btn {text-align: center;}
     /*procedures*/
-    .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 15px;}
-    .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 15px;}
-    .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 15px;}
-    .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 15px;}
-    .pro-inner-wrap .right {gap: 15px;}
+    .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 13px;}
+    .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 13px;}
+    .pro-inner.custom-pad #v-pills-messages-tab .demo {font-size: 13px;}
+    .pro-inner.custom-pad #v-pills-settings-tab .demo {font-size: 13px;}
+    .pro-inner .nav-pills .nav-link {height: 50px;}
+    .pro-inner-wrap .right {gap: 15px;margin-top: -20px;}
     /*Procedures Inner*/
     .procedurs-inner-img {margin-top: 35px;}
     .procedurs-inner-content {margin-top: 25px;}
@@ -684,6 +688,7 @@
 .counter-part .counter-text {flex-wrap: wrap;text-align: center;}
 .procedures-content {margin-top: 20px;}
 .custom-footer.custom-pad .footer-wrap .footer-box.box-1 {text-align: left;}
+.custom-button {height: 38px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 40px;}
     .custom-inner-banner {padding: 80px 0;}
@@ -699,12 +704,13 @@
     /*Gallery*/
     .gallery.custom-pad.gallery-inner.gallery-carousel #gallery-carousel {margin-top: 0px;}
     /*Contact Us*/
-    .contact-inner.custom-pad .custom-heading {padding: 0px 0px;}
+    .contact-inner.custom-pad .custom-heading {padding: 0px 7px;}
     .contact-inner.custom-pad .contact-form {margin-top: 25px;padding: 20px 10px;}
     .contact-inner.custom-pad .contact-form .form-control {padding: 14px .75rem;font-size: 12px;}
     .contact-inner.custom-pad .contact-map {margin-top: 30px;}
     /*Procedures*/
     .pro-inner-wrap {padding: 20px;}
+    .pro-inner-wrap .right {text-align: center;}
     /*Procedures Inner*/
     .procedurs-inner-img {margin-top: 20px;}
     .procedurs-inner-content {margin-top: 15px; text-align: center;}
