@@ -1017,6 +1017,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 20px;
 }
 /*Testimonial*/
+.testimonial-content-section.custom-pad {
+  background-color: var(--c-white-800);
+}
+.testimonial.testi-inner.custom-pad {
+  background-color: transparent;
+}
 .recent-client .testimonial-content .custom-paragraph {
   padding: 0 0px;
 }
@@ -1035,6 +1041,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 20px rgba(0,0,0,0.15);
   padding: 50px;
   border-radius: 10px;
+  background-color: var(--c-white-900);
 }
 .testimonial-content.second-review {
   border-bottom: 1px dashed transparent;

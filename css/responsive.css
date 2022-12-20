@@ -242,7 +242,7 @@
     .procedures-content .custom-paragraph.procedures-para {padding: 0 0px 0 90px;}
     .procedures-btn {margin-top: 30px;}
     .galley-btn {margin-top: 20px;}
-    .testimonial.custom-pad .client-img img {width: 11% !important;height: 106px;}
+    .testimonial.custom-pad .client-img img {width: 9% !important;height: 106px;}
     .footer-box .custom-paragraph {font-size: 14px;line-height: 28px;}
     .about.custom-pad {padding-bottom: 210px;}
     .procedure-pattern-1 img {width: 50%;}
@@ -275,7 +275,7 @@
     .about-inner-counter-content::after {height: 150px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
-    .gallery-inner-content-left::after {height: 160px;right: 10px;}
+    .gallery-inner-content-left::after {height: 140px;right: 10px;}
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
