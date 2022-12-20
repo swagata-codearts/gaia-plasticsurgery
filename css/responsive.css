@@ -459,7 +459,7 @@
 .about-bg-2 img {right: 0%;bottom: -6%;}
 .custom-header .header-contact {padding: 20px;}
 .about-content {padding: 0 0px 0 20px;margin-top: 50px;}
-.surgery-img img {width: 96%;height: auto;display: none;}
+.surgery-img img {width: 92%;height: auto;display: block;left: 0;right: 0;margin: 0 auto;top:0;}
 .counter-part .counter-text li {font-size: 50px;}
 .counter-part {margin-top: 20px;}
 .procedures-bottom {margin-top: 50px;}
@@ -537,6 +537,7 @@
 .custom-header {position: absolute;width: 100%;top:0;}
 .custom-banner {position: relative;margin-top: 92px;}
 .custom-header::before {top: 0;}
+.gallery.custom-pad .px-4 {padding-right: 0px !important;padding-left: 0px !important;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 60px;}
     .custom-inner-banner {padding: 90px 0;}
