@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .custom-header .nav-item {
-  padding: 0 0 0 65px;
+  padding: 0 0 0 60px;
 }
 .custom-header .header-icon li {
   display: inline-block;
@@ -252,6 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-tertiary);
   font-size: 17px;
   font-weight: 500;
+  letter-spacing: 0.6px;
   color: var(--c-primary);
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
@@ -286,8 +287,11 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-tertiary);
   margin-top: 5px;
 }
-.custom-header .header-contact {
-  padding-left: 35px;
+.custom-header .header-contact .header-call-contact li span {
+  font-size: 38px;
+  text-decoration: none;
+  color: var(--c-primary);
+  padding-right: 10px;
 }
 .custom-header .header-top_icon {
   padding-right: 10px;
@@ -355,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 70px;
   font-weight: 500;
   color: var(--c-primary);
-  padding-right: 640px;
+  padding-right: 520px;
 }
 .banner-btn {
   margin-top: 50px;
@@ -369,12 +373,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 95%;
   object-fit: cover;
   height: 725px;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  box-shadow: 0px 0px 46.4px 11.6px rgba(201, 201, 201, 0.75);
 }
 .about.custom-pad .about-img {
   position: relative;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .about-bg-1 img {
   width: 70% !important;
@@ -401,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 .about-content {
-  padding: 0 0px 0 80px;
+  padding: 0 0px 0 64px;
 }
 .about-content .custom-paragraph {
   margin-top: 40px;
@@ -420,11 +424,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 35%;
   object-fit: cover;
   height: 750px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
   position: absolute;
   top: -100px;
   z-index: 2;
+  object-position: 100%;
 }
 .counter-part .counter-text {
   display: flex;
@@ -525,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 .procedure-pattern-1 {
   position: absolute;
   right: 70px;
-  bottom: 38%;
+  bottom: 40%;
   z-index: 0;
 }
 .procedure-pattern-1 img {
@@ -534,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .procedure-pattern-2 {
   position: absolute;
-  bottom: 40%;
+  bottom: 42%;
   z-index: 0;
   right: 33%;
 }
@@ -544,17 +549,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*Gallery*/
 .gallery.custom-pad {
+  padding-bottom: 165px;
+}
+.gallery.custom-pad .gallery-wrap {
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
-  position: relative;
-  padding-bottom: 165px;
+  background-position: top;
 }
 .gallery.custom-pad .gallery-custom-img img {
   width: 100%;
   object-fit: cover;
   height: 680px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .gallery-text {
   padding-left: 220px;
@@ -602,7 +608,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 25px;
 }
 .testimonial-content .custom-paragraph {
-  padding: 0 200px;
+  padding: 0 110px;
+  font-size: 23px;
+  line-height: 47px;
 }
 .testimonial-content h6 {
   font-family: var(--ff-primary);
