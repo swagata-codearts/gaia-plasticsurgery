@@ -38,8 +38,7 @@
     .about.inner.custom-pad {padding-bottom: 190px;}
     /*Contact Us*/
     .contact-inner.custom-pad .custom-heading {padding: 0px 340px;}
-    /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 100px;text-align: center;}
+    
 }
 @media (min-width: 1500px) and (max-width: 1600px){
     .custom-header .nav-item {padding: 0 0 0 21px;}
@@ -109,8 +108,7 @@
     /*Procedures Inner*/
     .procedurs-inner-img {margin-top: 50px;}
     .procedurs-inner-content {margin-top: 50px;}
-    /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 70px;text-align: center;}
+    
 
 }
 @media (min-width: 1300px) and (max-width: 1366px){
@@ -177,7 +175,6 @@
     .gallery.custom-pad {padding-bottom: 105px;}
     .our-company.custom-pad {padding: 100px 0;}
     .procedures-bottom {margin-top: 150px;}
-
     .our-company-heading {padding-left: 120px;}
     .our-company-content {padding-right: 120px;}
     .custom-header .header-nav .nav-link {font-size: 16px;}
@@ -203,8 +200,8 @@
     .procedurs-inner-img {margin-top: 50px;}
     .procedurs-inner-content {margin-top: 50px;}
     /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 50px;text-align: center;}
-    .recent-client {padding: 30px;}
+    .testimonial-inner.custom-pad .custom-heading {margin-bottom: 60px;}
+
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -262,7 +259,6 @@
     .procedures-content .custom-paragraph.procedures-para {padding: 0 0px 0 90px;}
     .procedures-btn {margin-top: 30px;}
     .galley-btn {margin-top: 20px;}
-    .testimonial.custom-pad .client-img img {width: 9% !important;height: 106px;}
     .footer-box .custom-paragraph {font-size: 14px;line-height: 28px;}
     .about.custom-pad {padding-bottom: 210px;}
     .procedure-pattern-1 img {width: 50%;}
@@ -277,7 +273,6 @@
     .procedures-bottom {margin-top: 90px;}
     .testimonial.custom-pad {padding-bottom: 80px;}
     .our-company.custom-pad {padding: 80px 0;}
-
     .our-company-heading {padding-left: 50px;}
     .our-company-content {padding-right: 50px;}
     .custom-header .header-nav .nav-link {font-size: 14px;letter-spacing: 0;}
@@ -309,8 +304,12 @@
     .procedurs-inner-img {margin-top: 35px;}
     .procedurs-inner-content {margin-top: 35px;}
     /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 30px;text-align: center;}
-    .recent-client {padding: 30px;}
+    .testimonial-inner.custom-pad .custom-heading {margin-bottom: 60px;}
+    .teti-wrap {padding: 30px 30px;}
+    .teti-wrap .custom-paragraph {padding: 40px 0 20px;}
+    .teti-wrap h4 {font-size: 22px !important;}
+    .teti-wrap .client-img {margin-bottom: 10px;}
+    .teti-wrap .client-img img {width: 80px;height: 80px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -369,7 +368,6 @@
     .procedures-content .custom-paragraph.procedures-para {padding: 0 0px 0 90px;}
     .procedures-btn {margin-top: 30px;}
     .galley-btn {margin-top: 20px;}
-    .testimonial.custom-pad .client-img img {width: 11% !important;height: 106px;}
     .footer-box .custom-paragraph {font-size: 14px;line-height: 28px;}
     .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li a {font-size: 16px;}
     .banner-btn {margin-top: 30px;}
@@ -390,7 +388,6 @@
     .procedures-bottom {margin-top: 90px;}
     .testimonial.custom-pad {padding-bottom: 80px;}
     .our-company.custom-pad {padding: 80px 0;}
-
     .footer-box .footer-list h4 {font-size: 18px;}
     .our-company-heading {padding-left: 20px;}
     .our-company-content {padding-right: 20px;}
@@ -421,8 +418,13 @@
     .procedurs-inner-img {margin-top: 35px;}
     .procedurs-inner-content {margin-top: 35px;}
     /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 0px;text-align: center;}
-    .recent-client {padding: 25px;}
+    .testimonial-inner.custom-pad .custom-heading {margin-bottom: 60px;}
+    .teti-wrap {padding: 30px 15px;}
+    .teti-wrap .custom-paragraph {padding: 40px 0 20px;}
+    .teti-wrap h4 {font-size: 20px !important;}
+    .teti-wrap .client-img {margin-bottom: 10px;}
+    .teti-wrap .client-img img {width: 80px;height: 80px;}
+    .teti-wrap h6 {margin-top: 2px;font-size: 13px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -496,7 +498,6 @@
 .procedures-content .custom-paragraph.procedures-para {padding: 0 0px 0 90px;}
 .procedures-btn {margin-top: 30px;}
 .galley-btn {margin-top: 20px;}
-.testimonial.custom-pad .client-img img {width: 17% !important;height: 126px;}
 .footer-box .custom-paragraph {font-size: 14px;line-height: 28px;}
 .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li a {font-size: 16px !important;}
 .banner-btn {margin-top: 30px;}
@@ -590,8 +591,17 @@
     .procedurs-inner-content {margin-top: 35px;}
     .procedurs-inner.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
     /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 160px;text-align: center;}
-    .recent-client {padding: 25px;margin-top: 30px;}
+    .testimonial-inner.custom-pad .custom-heading {margin-bottom: 25px;}
+    .teti-wrap {padding: 30px 30px;}
+    .teti-wrap .custom-paragraph {padding: 40px 0 20px;}
+    .teti-wrap h4 {font-size: 20px !important;}
+    .teti-wrap .client-img {margin-bottom: 10px;}
+    .teti-wrap .client-img img {width: 80px;height: 80px;}
+    .teti-wrap h6 {margin-top: 2px;font-size: 13px;}
+    .testimonial-inner.custom-pad .custom-heading {padding: 0 120px;}
+    .teti-wrap.add-padding {margin-bottom: 30px;}
+    .testimonial-inner.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
+    .testimonial-inner.custom-pad .mb-5 {margin-bottom: 30px !important;}
 }
 
 
@@ -605,7 +615,6 @@
 .gallery.custom-pad .custom-heading {text-align: center;}
 .gallery-text {text-align: center;}
 .testimonial.custom-pad .custom-heading {padding: 0px 10px;}
-.testimonial.custom-pad .client-img img {width: 20% !important;height: 110px;border-radius: 70px;}
 .our-company-heading .heading-1 {font-size: 32px;}
 .our-company-heading .heading-1.extra {margin-top: 5px;}
 .footer-box .footer-list h4 {margin-bottom: 8px;}
@@ -650,8 +659,10 @@
     .procedurs-inner-img {margin-top: 35px;}
     .procedurs-inner-content {margin-top: 25px;}
     /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 80px;text-align: center;}
-    .recent-client {padding: 25px;margin-top: 20px;}
+    .testimonial-inner.custom-pad .custom-heading {padding: 0 60px;}
+    .teti-wrap {padding: 30px 15px;}
+    .teti-wrap {border-radius: 10px;}
+    
 }
 
 @media (max-width: 575.98px){
@@ -671,7 +682,6 @@
 .counter-part .counter-text li h3 {font-size: 18px;}
 .counter-part .counter-text li .custom-paragraph {margin-top: 15px;line-height: 22px;padding-right: 0px;}
 .testimonial.custom-pad .quote-img img {width: 15% !important;}
-.testimonial.custom-pad .client-img img {height: 60px;}
 .testimonial-content h6 {padding-top: 4px;font-size: 12px;}
 .our-company-heading .heading-1 {font-size: 24px;}
 .custom-footer.custom-pad .footer-wrap .footer-box {width: 100%;}
@@ -715,7 +725,10 @@
     .procedurs-inner-img {margin-top: 20px;}
     .procedurs-inner-content {margin-top: 15px; text-align: center;}
     /*Testimonial*/
-    .testimonial-content-section.custom-pad .custom-heading {padding: 0 0px;text-align: center;}
-    .recent-client {padding: 25px 10px;margin-top: 20px;}
+    .testimonial-inner.custom-pad .custom-heading {padding: 0 0px;}
+    .teti-wrap {padding: 30px 10px;}
+    .teti-wrap .custom-paragraph {padding: 20px 0 20px;}
+    .teti-wrap.add-padding {margin-bottom: 20px;}
+    .testimonial-inner.custom-pad .mb-5 {margin-bottom: 20px !important;}
 }
 
