@@ -45,9 +45,11 @@
 }
 @media (min-width: 1400px) and (max-width: 1500px){
     .custom-header .nav-item {padding: 0 0 0 11px;}
+    .container {padding-right: 3.5rem;padding-left: 3.5rem;}
 }
 @media (min-width: 1366px) and (max-width: 1400px){
     .custom-header .nav-item {padding: 0 0 0 10px;}
+    .container {padding-right: 3rem;padding-left: 3rem;}
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
@@ -113,12 +115,15 @@
 }
 @media (min-width: 1300px) and (max-width: 1366px){
     .custom-header .nav-item {padding: 0 0 0 10px;}
+    .container {padding-right: 3rem;padding-left: 3rem;}
 }
 @media (min-width: 1250px) and (max-width: 1300px){
     .custom-header .nav-item {padding: 0 0 0 10px;}
+    .container {padding-right: 3rem;padding-left: 3rem;}
 }
 @media (min-width: 1200px) and (max-width: 1250px){
     .custom-header .nav-item {padding: 0 0 0 7px;}
+    .container {padding-right: 2.5rem;padding-left: 2.5rem;}
 }
 @media (min-width: 1200px) and (max-width: 1366px){
     .custom-header::after {width: 180px;}
@@ -281,6 +286,7 @@
     .footer-box .custom-paragraph {font-size: 14px;}
     .testimonial-content .custom-paragraph {padding: 0 170px;font-size: 16px;line-height: 32px;}
     .custom-header .header-contact .header-call-contact li span {font-size: 25px;}
+    .container {padding-right: 2rem;padding-left: 2rem;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 130px;}
     .custom-inner-banner {padding: 90px 0;}
@@ -394,6 +400,7 @@
     .custom-header .header-nav .nav-link {font-size: 14px;letter-spacing: 0;}
     .footer-box.contact .footer-list li span {font-size: 18px;}
     .custom-header .header-contact .header-call-contact li span {font-size: 25px;padding-right: 5px;}
+    .container {padding-right: 2rem;padding-left: 2rem;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 130px;}
     .custom-inner-banner {padding: 90px 0;}
