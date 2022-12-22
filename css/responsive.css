@@ -202,6 +202,7 @@
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 260px;}
     .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
+    .contact-media .contact-list li {font-size: 18px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 32px;}
     /*Procedures Inner*/
@@ -310,8 +311,8 @@
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
     .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
-    .contact-details-box.last-box {margin-top: 30px;}
     .contact-media .contact-details-box {height: 240px;}
+    .contact-media .contact-list li {font-size: 16px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
     /*Procedures Inner*/
@@ -427,11 +428,11 @@
     .gallery-inner-content-left::after {top: -35px;right: 0px;}
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
-    .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
+    .contact-inner.custom-pad .custom-heading {padding: 0px 200px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
     .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
-    .contact-details-box.last-box {margin-top: 30px;}
     .contact-media .contact-details-box {height: 240px;}
+    .contact-media .contact-list li {font-size: 16px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
     /*Procedures Inner*/
@@ -592,7 +593,7 @@
     .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
     .contact-details-box.last-box {margin-top: 30px;}
     .contact-media .contact-details-box {height: auto;}
-    .contact-media .contact-list li {font-size: 18px;}
+    .contact-media .contact-list li {font-size: 16px;}
     /*Procedures*/  
     .pills-tab-wrap {flex-direction: column;}
     .pro-inner .nav-pills {flex: 0 0 100%;padding-right: 0px;flex-direction: row !important;margin: auto !important;}
@@ -727,6 +728,7 @@
 .counter-part .counter-text {flex-wrap: wrap;text-align: center;}
 .procedures-content {margin-top: 20px;}
 .custom-footer.custom-pad .footer-wrap .footer-box.box-1 {text-align: left;}
+.custom-button {padding: 12px 22px 10px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 40px;}
     .custom-inner-banner {padding: 80px 0;}
