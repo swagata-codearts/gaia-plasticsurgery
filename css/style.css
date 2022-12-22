@@ -878,10 +878,13 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   background-color: var(--c-tertiary);
   width: 1px;
-  height: 180px;
-  top: 12px;
+  height: 170px;
+  top: 0;
   right: 30px;
   opacity: 0.4;
+}
+.gallery.custom-pad.gallery-inner .custom-heading {
+  text-align: center;
 }
 /*Contact Us*/
 .contact-inner.custom-pad {

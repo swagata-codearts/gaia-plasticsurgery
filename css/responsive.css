@@ -38,7 +38,8 @@
     .about.inner.custom-pad {padding-bottom: 190px;}
     /*Contact Us*/
     .contact-inner.custom-pad .custom-heading {padding: 0px 340px;}
-    
+    /*Gallery*/
+    .gallery-inner-content-left::after {top: -60px;}
 }
 @media (min-width: 1500px) and (max-width: 1600px){
     .custom-header .nav-item {padding: 0 0 0 21px;}
@@ -102,7 +103,7 @@
     .custom-inner-banner .inner-banner-content h1 {font-size: 60px;}
     .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 70px;}
     /*Gallery*/
-    .gallery-inner-content-left::after {height: 130px;right: 20px;}
+    .gallery-inner-content-left::after {top: -60px;}
     /*Contact Us*/
     .contact-inner.custom-pad .custom-heading {padding: 0px 340px;}
     /*Procedures*/
@@ -196,7 +197,7 @@
     .about-inner-counter-content::after {height: 160px;}
     .about-inner.custom-pad .custom-heading {padding-right: 360px;}
     /*Gallery*/
-    .gallery-inner-content-left::after {height: 140px;right: 10px;}
+    .gallery-inner-content-left::after {top: -60px;right: 0px;}
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 260px;}
@@ -302,7 +303,7 @@
     .about-inner.custom-pad .custom-heading {padding-right: 290px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
-    .gallery-inner-content-left::after {height: 140px;right: 10px;}
+    .gallery-inner-content-left::after {top: -35px;right: 0px;}
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
@@ -419,7 +420,7 @@
     .about-inner.custom-pad .custom-heading {padding-right: 250px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
-    .gallery-inner-content-left::after {height: 160px;right: 10px;}
+    .gallery-inner-content-left::after {top: -35px;right: 0px;}
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
@@ -575,7 +576,7 @@
     .gallery.custom-pad.gallery-inner.gallery-carousel #gallery-carousel {margin-top: 20px;}
     .gallery-inner-content-right {margin-top: 20px;}
     .gallery-inner-content-left::after {display: none;}
-    .gallery.custom-pad .gallery-inner .gallery.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
+    .gallery.custom-pad .gallery-inner .px-4 {padding-right: 0px !important;padding-left: 0px !important;}
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 30px;padding: 40px 20px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 160px;}
