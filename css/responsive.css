@@ -572,11 +572,10 @@
     .about-inner.custom-pad .about-content {margin-top: 0px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
-    .gallery.custom-pad.gallery-inner.gallery-carousel {display: block;}
-    .gallery.custom-pad.gallery-inner {display: none;}
     .gallery.custom-pad.gallery-inner.gallery-carousel #gallery-carousel {margin-top: 20px;}
     .gallery-inner-content-right {margin-top: 20px;}
     .gallery-inner-content-left::after {display: none;}
+    .gallery.custom-pad .gallery-inner .gallery.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 30px;padding: 40px 20px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 160px;}
