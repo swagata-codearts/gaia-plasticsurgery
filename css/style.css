@@ -113,7 +113,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 18px 30px 16px;
   letter-spacing: 1px;
   position: relative;
-  line-height: 0;
 }
 /* If there is a button icon */
 .custom-button {
@@ -323,6 +322,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-header .d-flex.header-top_contact {
   align-items: center;
+}
+.custom-header .time-tooltip {
+  display: none;
 }
 /* *************** Header Section End *************** */
 /*Custom-heading*/

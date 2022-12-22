@@ -548,6 +548,8 @@
 .custom-banner {position: relative;margin-top: 92px;}
 .custom-header::before {top: 0;}
 .gallery.custom-pad .px-4 {padding-right: 0px !important;padding-left: 0px !important;}
+.custom-header .time-tooltip {display: block;}
+.custom-header .d-flex.align-items-center.actual-time span {display: none;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 60px;}
     .custom-inner-banner {padding: 90px 0;position: relative;margin-top: 92px;z-index: 1;}
@@ -615,7 +617,6 @@
 @media (max-width: 767.98px){
 .banner-content h1 {font-size: 38px;}
 .custom-banner .banner-wrap {padding: 100px 0;}
-.custom-button {font-size: 14px;padding: 0px 22px;height: 50px;}
 .about-content {padding: 0 0px 0 0px;text-align: center;}
 .about-btn {margin-top: 25px;}
 .about.custom-pad {padding-bottom: 40px;}
@@ -643,6 +644,8 @@
 .footer-box .custom-paragraph {margin-top: 16px;}
 .custom-footer.custom-pad {padding: 100px 0 0;}
 .testimonial-content .custom-paragraph {padding: 0 0px;font-size: 15px;line-height: 28px;}
+.custom-button {font-size: 14px;padding: 16px 25px 14px;}
+.custom-button span {margin-left: 4px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 40px;}
     .custom-inner-banner {padding: 80px 0;}
@@ -675,8 +678,6 @@
 @media (max-width: 575.98px){
 .custom-banner .banner-wrap {background-position: 70% 0%;}
 .header-icon-list {display: block !important;}
-.custom-header .header-top_icon {display: none;}
-.custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li::after {display: none;}
 .custom-header .header-icon li {padding: 0 0px 0 15px !important;}
 .banner-content h1 {font-size: 28px;}
 .about.custom-pad .about-img img {width: 100%;height: auto;}
@@ -693,7 +694,7 @@
 .our-company-heading .heading-1 {font-size: 24px;}
 .custom-footer.custom-pad .footer-wrap .footer-box {width: 100%;}
 .copyright .custom-paragraph {font-size: 12px;}
-.custom-header .navbar-expand-lg .navbar-nav {align-items: end;}
+.custom-header .navbar-expand-lg .navbar-nav {align-items: center;}
 .custom-header .header-contact {padding: 10px 0 10px 0;}
 .custom-header .header-nav .nav-link {font-size: 15px;}
 .about-bg-1 img {width: 40% !important;height: auto!important;}
@@ -705,7 +706,7 @@
 .counter-part .counter-text {flex-wrap: wrap;text-align: center;}
 .procedures-content {margin-top: 20px;}
 .custom-footer.custom-pad .footer-wrap .footer-box.box-1 {text-align: left;}
-.custom-button {height: 38px;}
+.custom-button {font-size: 14px;padding: 15px 25px 13px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 40px;}
     .custom-inner-banner {padding: 80px 0;}
@@ -737,5 +738,9 @@
     .teti-wrap .custom-paragraph {padding: 20px 0 20px;}
     .teti-wrap.add-padding {margin-bottom: 20px;}
     .testimonial-inner.custom-pad .mb-5 {margin-bottom: 20px !important;}
+}
+@media (max-width: 479.98px){
+    .custom-header .header-top_icon {display: none;}
+    .custom-header .header-top_content.d-flex.justify-content-end .d-flex.header-top_contact li::after {display: none;}
 }
 
