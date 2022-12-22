@@ -201,6 +201,7 @@
     /*Contact Us*/
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 260px;}
+    .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 32px;}
     /*Procedures Inner*/
@@ -308,6 +309,9 @@
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
+    .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
+    .contact-details-box.last-box {margin-top: 30px;}
+    .contact-media .contact-details-box {height: 240px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
     /*Procedures Inner*/
@@ -425,6 +429,9 @@
     .contact-inner.custom-pad .contact-form {margin-top: 50px;}
     .contact-inner.custom-pad .custom-heading {padding: 0px 220px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
+    .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
+    .contact-details-box.last-box {margin-top: 30px;}
+    .contact-media .contact-details-box {height: 240px;}
     /*Procedures*/
     .pro-inner.custom-pad .demo {font-size: 16px;line-height: 30px;}
     /*Procedures Inner*/
@@ -582,6 +589,10 @@
     .contact-inner.custom-pad .custom-heading {padding: 0px 160px;}
     .contact-inner.custom-pad .contact-form .form-btn {margin-top: 25px;}
     .contact-inner.custom-pad .contact-map iframe {height: 300px;}
+    .contact-media .contact-details-text span {font-size: 45px;height: 90px;width: 90px;line-height: 95px;}
+    .contact-details-box.last-box {margin-top: 30px;}
+    .contact-media .contact-details-box {height: auto;}
+    .contact-media .contact-list li {font-size: 18px;}
     /*Procedures*/  
     .pills-tab-wrap {flex-direction: column;}
     .pro-inner .nav-pills {flex: 0 0 100%;padding-right: 0px;flex-direction: row !important;margin: auto !important;}
@@ -666,6 +677,8 @@
     /*Contact Us*/
     .contact-inner.custom-pad .custom-heading {padding: 0px 90px;}
     .contact-inner.custom-pad .contact-form .form-btn {text-align: center;}
+    .contact-details-box {margin-bottom: 30px;}
+    .contact-details-box.last-box {margin-top: 0px;margin-bottom: 0px;}
     /*procedures*/
     .pro-inner.custom-pad #v-pills-home-tab .demo {font-size: 13px;}
     .pro-inner.custom-pad #v-pills-profile-tab .demo {font-size: 13px;}
@@ -735,9 +748,12 @@
     .contact-inner.custom-pad .contact-form .form-control {padding: 14px .75rem;font-size: 12px;}
     .contact-inner.custom-pad .contact-map {margin-top: 30px;}
     .contact-form .form-btn .custom-button {padding: 14px 40px 12px;}
+    .contact-media .contact-details-text span {font-size: 45px;height: 80px;width: 80px;line-height: 85px;}
+    .contact-media .contact-details-box {padding: 25px 15px;}
     /*Procedures*/
     .pro-inner-wrap {padding: 20px;}
     .pro-inner-wrap .right {text-align: center;}
+    .pro-inner.custom-pad .pills-tab-wrap.d-flex.align-items-start #v-pills-tab {justify-content: center;}
     /*Procedures Inner*/
     .procedurs-inner-img {margin-top: 20px;}
     .procedurs-inner-content {margin-top: 15px; text-align: center;}

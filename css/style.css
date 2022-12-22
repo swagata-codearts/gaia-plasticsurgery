@@ -894,6 +894,41 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding: 0 200px;
 }
+.contact-media .contact-details-box {
+  text-align: center;
+  background-color: var(--c-white-800);
+  padding: 40px 20px;
+  height: 270px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  border-bottom: 2px solid var(--c-secondary);
+}
+.contact-media .contact-list {
+  margin-top: 20px;
+}
+.contact-media .contact-list li {
+  font-family: var(--ff-secondary);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 0;
+  color: var(--c-primary);
+}
+.contact-media .contact-list li a {
+  text-decoration: none;
+  color: var(--c-black-600);
+}
+.contact-media .contact-details-text span {
+  color: var(--c-white-900);
+  font-size: 60px;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border-radius: 50px;
+  line-height: 110px;
+  background-color: var(--c-secondary);
+}
 .contact-inner.custom-pad .contact-form {
   margin-top: 80px;
   padding: 70px;
