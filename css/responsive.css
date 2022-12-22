@@ -750,6 +750,7 @@
     .contact-form .form-btn .custom-button {padding: 14px 40px 12px;}
     .contact-media .contact-details-text span {font-size: 45px;height: 80px;width: 80px;line-height: 85px;}
     .contact-media .contact-details-box {padding: 25px 15px;}
+    .contact-media .contact-list li {font-size: 16px;}
     /*Procedures*/
     .pro-inner-wrap {padding: 20px;}
     .pro-inner-wrap .right {text-align: center;}
