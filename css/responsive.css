@@ -194,6 +194,7 @@
     .about-service-box-content .about-service-box-icon {font-size: 50px;}
     .about-inner-counter-content h4 {font-size: 26px;}
     .about-inner-counter-content::after {height: 160px;}
+    .about-inner.custom-pad .custom-heading {padding-right: 360px;}
     /*Gallery*/
     .gallery-inner-content-left::after {height: 140px;right: 10px;}
     /*Contact Us*/
@@ -287,6 +288,7 @@
     .testimonial-content .custom-paragraph {padding: 0 170px;font-size: 16px;line-height: 32px;}
     .custom-header .header-contact .header-call-contact li span {font-size: 25px;}
     .container {padding-right: 2rem;padding-left: 2rem;}
+    .custom-button {font-size: 14px;padding: 14px 30px 12px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 130px;}
     .custom-inner-banner {padding: 90px 0;}
@@ -297,6 +299,7 @@
     .about-service-box-content {padding: 20px 20px;}
     .about-service-box-content h3 {font-size: 24px;}
     .about-inner-counter-content::after {height: 150px;}
+    .about-inner.custom-pad .custom-heading {padding-right: 290px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
     .gallery-inner-content-left::after {height: 140px;right: 10px;}
@@ -401,6 +404,7 @@
     .footer-box.contact .footer-list li span {font-size: 18px;}
     .custom-header .header-contact .header-call-contact li span {font-size: 25px;padding-right: 5px;}
     .container {padding-right: 2rem;padding-left: 2rem;}
+    .custom-button {font-size: 14px;padding: 14px 30px 12px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 130px;}
     .custom-inner-banner {padding: 90px 0;}
@@ -412,6 +416,7 @@
     .about-service-box-content h3 {font-size: 24px;}
     .about-inner-counter-content::after {height: 150px;}
     .testimonial-content .custom-paragraph {padding: 0 110px;font-size: 16px;line-height: 32px;}
+    .about-inner.custom-pad .custom-heading {padding-right: 250px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
     .gallery-inner-content-left::after {height: 160px;right: 10px;}
@@ -459,8 +464,8 @@
 .custom-footer.custom-pad .footer-wrap {padding: 0 15px 0 15px;}
 .footer-box.padding .footer-list {padding-left: 0px;}
 .header-logo {left: 10px !important;bottom: 14px !important;}
-.custom-header .header-nav {padding: 0 15px 0 0;}
-.custom-header .header-top_content.d-flex.justify-content-end {padding: 0 15px 0 0px;}
+.custom-header .header-nav {padding: 0;}
+.custom-header .header-top_content.d-flex.justify-content-end {padding: 0px;}
 .custom-header .header-contact li a {font-size: 20px;}
 .about.custom-pad .about-img {text-align: center;}
 .about.custom-pad .about-img img {width: 90%;height: 600px;}
@@ -550,6 +555,7 @@
 .gallery.custom-pad .px-4 {padding-right: 0px !important;padding-left: 0px !important;}
 .custom-header .time-tooltip {display: block;}
 .custom-header .d-flex.align-items-center.actual-time span {display: none;}
+.custom-button {font-size: 14px;padding: 14px 30px 12px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 60px;}
     .custom-inner-banner {padding: 90px 0;position: relative;margin-top: 92px;z-index: 1;}
@@ -563,6 +569,7 @@
     .custom-inner-banner .inner-banner-content {text-align: center;}
     .custom-inner-banner .inner-banner-content .inner-banner-text .breadcrumb {justify-content: center;}
     .about-service.custom-pad .custom-heading {margin-bottom: 40px;}
+    .about-inner.custom-pad .about-content {margin-top: 0px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner .gallery-inner-btn {margin-top: 50px;}
     .gallery.custom-pad.gallery-inner.gallery-carousel {display: block;}
@@ -644,13 +651,14 @@
 .footer-box .custom-paragraph {margin-top: 16px;}
 .custom-footer.custom-pad {padding: 100px 0 0;}
 .testimonial-content .custom-paragraph {padding: 0 0px;font-size: 15px;line-height: 28px;}
-.custom-button {font-size: 14px;padding: 16px 25px 14px;}
+.custom-button {padding: 14px 25px 12px;}
 .custom-button span {margin-left: 4px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 40px;}
     .custom-inner-banner {padding: 80px 0;}
     .custom-inner-banner .inner-banner-content h1 {font-size: 45px;}
     .about-inner-counter-content::after {display: none;}
+    .about-inner.custom-pad .custom-heading {padding-right: 0px;}
     /*Gallery*/
     .gallery-inner-content-left {text-align: center;}
     .gallery-inner-content-right {text-align: center;}
@@ -706,7 +714,6 @@
 .counter-part .counter-text {flex-wrap: wrap;text-align: center;}
 .procedures-content {margin-top: 20px;}
 .custom-footer.custom-pad .footer-wrap .footer-box.box-1 {text-align: left;}
-.custom-button {font-size: 14px;padding: 15px 25px 13px;}
     /*About-us*/
     .about.inner.custom-pad {padding-bottom: 40px;}
     .custom-inner-banner {padding: 80px 0;}
@@ -719,6 +726,7 @@
     .about-inner-counter-content h4 {font-size: 22px;margin-top: 6px;}
     .about-inner-counter-content .count-number-and-unit.secondary-font {font-size: 45px;}
     .about-inner-counter-content {margin-bottom: 20px;}
+    .about-inner.custom-pad .custom-paragraph {margin-top: 10px;}
     /*Gallery*/
     .gallery.custom-pad.gallery-inner.gallery-carousel #gallery-carousel {margin-top: 0px;}
     /*Contact Us*/
@@ -726,6 +734,7 @@
     .contact-inner.custom-pad .contact-form {margin-top: 25px;padding: 20px 10px;}
     .contact-inner.custom-pad .contact-form .form-control {padding: 14px .75rem;font-size: 12px;}
     .contact-inner.custom-pad .contact-map {margin-top: 30px;}
+    .contact-form .form-btn .custom-button {padding: 14px 40px 12px;}
     /*Procedures*/
     .pro-inner-wrap {padding: 20px;}
     .pro-inner-wrap .right {text-align: center;}

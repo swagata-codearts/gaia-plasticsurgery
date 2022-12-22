@@ -793,8 +793,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0rem;
 }
 /*About-Us*/
+.about-inner.custom-pad .custom-heading {
+  padding-right: 200px;
+}
 .about-service.custom-pad {
   background-color: #2c2647;
+}
+.about-inner.custom-pad .about-content {
+  padding: 0 0px 0 0px;
 }
 .about-service-box {
   background-color: var(--c-white-900);
